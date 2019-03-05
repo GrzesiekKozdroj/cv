@@ -87,6 +87,9 @@ body{
     height:82px;
     background-position: -100px -94px;
 }
+.right__side__list li{
+    margin-left:15px;
+}
 .hobbies__content{
     display: flex;
     
@@ -94,4 +97,7 @@ body{
 .models{
     height: 120px;
     object-fit: contain;
+}
+.models:hover{
+
 }
