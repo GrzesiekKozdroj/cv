@@ -1,2 +1,2 @@
 # CV
-My CV written using html, css and (soon) jQuery 
+My CV written using html and css

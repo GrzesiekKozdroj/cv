@@ -1,6 +1,7 @@
+@import url('https://fonts.googleapis.com/css?family=Lato');
+
 body{
     background:hsl(120, 24%, 93%);
-    background-image: url("https://imageshack.com/i/plJAfM6Qj");
     background-size: cover;
     display:flex;
     justify-content:center;
@@ -8,9 +9,9 @@ body{
 *{
     padding:0;
     margin:0;
-    
+    letter-spacing: .01rem;
     box-sizing: border-box;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-family: 'Lato';
 }
 .main__container{
     max-width:780px;
@@ -21,8 +22,14 @@ body{
 .left__side{
     width:28%;
     background: linear-gradient(63deg, #8492856e, rgba(207, 253, 209, 0.4));
+    display:flex;
+    flex-flow:column;
     text-align: center;
     align-items: center;
+    justify-content: flex-start;
+}
+.left__content{
+    width: 80%;
 }
 
 .my__picture{
@@ -32,9 +39,26 @@ body{
     margin: 20px auto;
 }
 .ico{
-    width: 100%;
-    height: 50px;
+    width: 120%;
+    height: 40px;
     margin: 10px auto;
+    margin-left:-10%;
+}
+.button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 30px;
+    background:radial-gradient(rgba(246, 250, 186, 0.548), #8492856e);
+    border-radius:5px;
+    text-decoration: none;
+    color: black;
+}
+.button__link{
+    width: 30%;
+    align-self: center;
+    margin-top: 15px;
+    margin-left:35%;
 }
 
 .right__side{
@@ -44,13 +68,30 @@ body{
 }
 .right__header{
     background: linear-gradient(270deg, #81887a56, rgba(239, 253, 227, 0.4));
-    margin-top:5px;
+    margin-top:20px;
 }
 .projects__list{
     padding: 5px;
     list-style: none;
+    display: flex;
+    flex-flow:column;
 }
 .projects__list li:nth-child(2n+1){
     text-align:center;
     font-size:1.1rem;
+}
+.cl__logo{
+    background: url("./img/cl.png");
+    display: inline-block;
+    width:385px;
+    height:82px;
+    background-position: -100px -94px;
+}
+.hobbies__content{
+    display: flex;
+    
+}
+.models{
+    height: 120px;
+    object-fit: contain;
 }
