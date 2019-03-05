@@ -78,13 +78,13 @@
         }
 
         .button__link {
-            width: 30%;
-            align-self: center;
-            margin-top: 20px;
-            margin-left: 35%;
+            width: 150px;
+            margin-top: 10px;
+            padding: 0 6px 0 6px;
+            display: flex;
         }
 
-        .button__link:hover{
+        .button__link:hover {
             box-shadow: 0 0 10px rgba(137, 127, 187, 0.64);
         }
 
@@ -93,20 +93,27 @@
             background: linear-gradient(270deg, #81ddd879, rgba(137, 154, 170, 0.384));
             padding: 15px;
         }
-        @keyframes loading{
-            100% {width:100%};
+
+        @keyframes loading {
+            100% {
+                width: 100%
+            }
+
+            ;
         }
+
         .right__header {
-            width:0;
+            width: 0;
             margin: 35px auto 15px auto;
             font-size: 2.2rem;
-            padding-left:11px;
+            padding-left: 11px;
             color: rgb(42, 42, 42);
             border-bottom: 2px solid rgba(82, 107, 107, 0.9);
             border-right: 2px solid rgba(82, 107, 107, 0.9);
-            animation: 1s forwards loading ;
+            animation: 1s forwards loading;
         }
-        .right__header:hover{
+
+        .right__header:hover {
             border-right: 2px solid rgb(82, 107, 107);
             border-bottom: 2px solid rgb(82, 107, 107);
         }
@@ -118,52 +125,61 @@
             flex-flow: column;
         }
 
-        .projects__list li:nth-child(2n+1) {
-            text-align: center;
-            font-size: 1.1rem;
+        .education {
+            display: flex;
         }
 
-        .phone{
+        .projects__list li {
+            margin-top: 25px;
+            display: flex;
+            justify-content: center;
+        }
+
+        .projects__list li p {
+            padding: 5px;
+            display: flex;
+            flex-flow: column;
+        }
+
+        .phone {
             background-image: url("./img/mobile.png");
             background-position: -400px -53px;
             background-size: 280px;
-            height:53px;
-            margin-top:15px;
+            height: 53px;
+            margin-top: 15px;
         }
-        
-        .email{
+
+        .email {
             background-image: url("./img/email.png");
             background-position: -399px -53px;
             background-size: 281px;
-            height:53px;
-            margin-top:15px;
+            height: 53px;
+            margin-top: 15px;
         }
 
-        .github{
+        .github {
             background-image: url("./img/git.png");
             background-position: -381px -53px;
             background-size: 272px;
-            height:53px;
-            margin-top:15px;
+            height: 53px;
+            margin-top: 15px;
         }
 
-        .linkedin{
+        .linkedin {
             background-image: url("./img/in.png");
             background-position: -361px -53px;
-            height:53px;
-            margin-top:15px;
+            height: 53px;
+            margin-top: 15px;
         }
 
         .cl__logo {
             background: url("./img/cl.png");
             display: inline-block;
             width: 385px;
-            height: 82px;
-            background-position: -100px -94px;
-        }
-
-        .right__side__list li {
-            margin-left: 15px;
+            height: 73px;
+            background-position: -123px -66px;
+            transform: rotate(-42deg);
+            background-size: 1044px;
         }
 
         .hobbies__content {
@@ -182,6 +198,11 @@
             font-size: .9rem;
             line-height: 150%;
             word-spacing: .42rem;
+        }
+
+        .projects__image {
+            display: inline-block;
+            height: 200px;
         }
     </style>
 
@@ -219,26 +240,50 @@
 
             <h2 class="right__header">Profile</h2>
             <p>
-                Previously I have worked in a factory, where robots produce contacts lenses. I wanted to challenge myself and do something different, to find a career where skills and quality of my work matter. I am impressed by how computer programs can be automated to carry out sophisticated task. In 2018 I became interested in coding. my first lessons were on mobile app SoloLearn, then various online tutorials and finally a Boot Camp. Since then I am completely hooked up into coding.
+                Previously I have worked in a factory, where robots produce contacts lenses. I wanted to challenge
+                myself and do something different, to find a career where skills and quality of my work matter. I am
+                impressed by how computer programs can be automated to carry out sophisticated task. In 2018 I became
+                interested in coding. my first lessons were on mobile app SoloLearn, then various online tutorials and
+                finally a Boot Camp. Since then I am completely hooked up into coding.
             </p>
 
             <h2 class="right__header">Projects</h2>
             <ul class="projects__list">
 
-                <li><a class="button__link button" href="https://github.com/GrzesiekKozdroj/gimball" target="_blank">Guild Ball</a></li>
-                <li>Work In Progress. I decided to translate tabletop game into canvas element, it still has a long way
-                    to go and there are no animations yet, but its fun and allows me to use mathematic formulas to
-                    calculate simple things like distances on Cartesian plane, done using vanilla JavaScript, jQuery
-                    for event listeners and HTML canvas.</li>
+                <li>
+                    <p>
+                        <a class="button__link button" href="https://github.com/GrzesiekKozdroj/gimball" target="_blank">Guild Ball</a>
+                        Work In Progress. I decided to translate tabletop game into canvas element, it still has a long
+                        way
+                        to go and there are no animations yet, but its fun and allows me to use mathematic formulas to
+                        calculate simple things like distances on Cartesian plane, done using vanilla JavaScript,
+                        jQuery
+                        for event listeners and HTML canvas.
+                    </p>
+                    <a href="https://github.com/GrzesiekKozdroj/gimball"><img class="projects__image" src="./img/guildball.jpg"></a>
+                </li>
 
-                <li><a class="button__link button" href="https://github.com/GrzesiekKozdroj/tic-tac-toe-5" target="_blank">Tic-Tac-Toe-5</a></li>
-                <li>Still needs final polishing, I want this to be easily used on touchscreen devices. A simple
-                    tic-tac-toe I have played in primary school. Me and my class mates started to play a version where
-                    we had to place 5 in row and an entire paper parchment was the battleground.</li>
+                <li>
+                    <a href="https://github.com/GrzesiekKozdroj/tic-tac-toe-5"><img class="projects__image" src="./img/ttt5.jpg"></a>
+                    <p>
+                        <a class="button__link button" href="https://github.com/GrzesiekKozdroj/tic-tac-toe-5" target="_blank">Tic-Tac-Toe-5</a>
+                        Still needs final polishing, I want this to be easily used on touchscreen devices. A simple
+                        tic-tac-toe I have played in primary school. Me and my class mates started to play a version
+                        where
+                        we had to place 5 in row and an entire paper parchment was the battleground.
+                    </p>
+                </li>
 
-                <li><a class="button__link button" href="https://github.com/GrzesiekKozdroj/Sit-On-Chair-Web-Page" target="_blank">Sit
-                        On Chair</a></li>
-                <li>Bootcamp project where we had to make a very simple webpage with Pixel Perfect.</li>
+                <li></li>
+                <li>
+                    <p>
+                        <a class="button__link button" href="https://github.com/GrzesiekKozdroj/Sit-On-Chair-Web-Page"
+                            target="_blank">Sit
+                            On Chair</a>
+                        Bootcamp project where we had to make a very simple webpage with Pixel Perfect.
+                    </p>
+                    <a href="https://github.com/GrzesiekKozdroj/Sit-On-Chair-Web-Page"><img class="projects__image" src="./img/sitonchair.jpg"></a>
+                </li>
 
             </ul>
 
@@ -250,20 +295,23 @@
             </ul>
 
             <h2 class="right__header">Education</h2>
-            <a href="https://coderslab.pl/en" target="_blank">
-                <div class="cl__logo" alt="Coders Lab, IT school"></div>
-            </a>
-            <ul class="right__side__list">
-                <li>Coders Lab, IT school  (January - February 2019)</li>
-                <li>240 hours of classes focusing on the above technologies</li>
-                <li>With exams at the end of each week</li>
-                <li>They got me completely hooked up with coding</li>
-            </ul>
+            <div class="education">
+                <ul class="right__side__list">
+                    <li>Coders Lab, IT school (January - February 2019)</li>
+                    <li>240 hours of classes focusing on the above technologies</li>
+                    <li>With exams at the end of each week</li>
+                    <li>They got me completely hooked up with coding</li>
+                </ul>
+                <a href="https://coderslab.pl/en" target="_blank">
+                    <div class="cl__logo" alt="Coders Lab, IT school"></div>
+                </a>
+            </div>
 
             <h2 class="right__header">Hobbies</h2>
             <div class="hobbies__content">
                 <p>Painting tabletop fantasy minatures, I do this for years, strive to be efficient, these miniatures
-                    earned me living for some time and I was awarded first place in many Miniature Painting Competitions. 
+                    earned me living for some time and I was awarded first place in many Miniature Painting
+                    Competitions.
                     I like good fantasy and sci-fi games, books and movies.
                     I play table top games such as Guild Ball, Malifaux, Hordes and Warhammer</p>
                 <img class="models" src="./img/cabinet.jpg" alt="picture of my display cabinet">
