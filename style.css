@@ -9,7 +9,7 @@ body{
 *{
     padding:0;
     margin:0;
-    letter-spacing: .01rem;
+    letter-spacing: .05rem;
     box-sizing: border-box;
     font-family: 'Roboto';
 }
@@ -101,5 +101,5 @@ body{
 .right__side__list, .right__side p, li {
     font-size: .9rem;
     line-height: 150%;
-    word-spacing: .5rem;
+    word-spacing: .2rem;
 }
