@@ -16,7 +16,7 @@
         @import url('https://fonts.googleapis.com/css?family=Roboto');
 
         body {
-            background: hsl(120, 24%, 93%);
+            background: #FCDD71;
             background-size: cover;
             display: flex;
             justify-content: center;
@@ -32,20 +32,20 @@
 
         .main__container {
             max-width: 1080px;
-            background-color: rgba(255, 255, 255, 0.4);
+            background-color: #FCDD71;
             display: flex;
             justify-content: space-evenly;
         }
 
         .left__side {
             width: 28%;
-            background: linear-gradient(60deg, #242829d3, rgba(1, 68, 77, 0.8));
+            background: #414141;
             display: flex;
             flex-flow: column;
             text-align: center;
             align-items: center;
             justify-content: flex-start;
-            color: rgb(22, 32, 32);
+            color: #FCDD71;
         }
 
         .left__content {
@@ -71,15 +71,15 @@
             justify-content: center;
             align-items: center;
             height: 30px;
-            background-color: #2190c4;
+            background-color: #48D6B6;
             border-radius: 5px;
             text-decoration: none;
-            color: white;
+            color: #414141;
         }
 
         .button__link {
-            width: 150px;
-            margin-top: 10px;
+            width: 140px;
+            margin-top: -5px;
             padding: 0 6px 0 6px;
             display: flex;
         }
@@ -90,8 +90,9 @@
 
         .right__side {
             width: 68%;
-            background: linear-gradient(270deg, #81ddd879, rgba(137, 154, 170, 0.384));
+            background: #FCDD71;
             padding: 15px;
+            color: #414141;
         }
 
         @keyframes loading {
@@ -122,7 +123,9 @@
             padding: 5px;
             list-style: none;
             display: flex;
-            flex-flow: column;
+            flex-flow: row;
+            flex-wrap:wrap;
+            justify-content: center;
         }
 
         .education {
@@ -133,42 +136,50 @@
             margin-top: 25px;
             display: flex;
             justify-content: center;
+            flex-flow:column;
         }
 
         .projects__list li p {
             padding: 5px;
             display: flex;
-            flex-flow: column;
+            flex-flow: column;justify-content:right; 
+            align-items: center; width: 365px; height:130px;
         }
 
         .phone {
             background-image: url("./img/mobile.png");
-            background-position: -400px -53px;
-            background-size: 280px;
+            background-position: -403px -55px;
+            background-size: 286px;
             height: 53px;
             margin-top: 15px;
         }
 
         .email {
-            background-image: url("./img/email.png");
-            background-position: -399px -53px;
-            background-size: 281px;
+            background-image: url("./img/yahoo-icon.png");
+            background-position: 0px -0px;
+            background-size: 53px;
+            background-repeat: no-repeat;
             height: 53px;
             margin-top: 15px;
+            padding-left:30px;
         }
 
         .github {
-            background-image: url("./img/git.png");
-            background-position: -381px -53px;
+            background-image: url("./img/Octocat.png");
+            background-position: 0px 0px;
             background-size: 272px;
             height: 53px;
+            background-size: 62px;
+            background-repeat: no-repeat;
             margin-top: 15px;
         }
 
         .linkedin {
-            background-image: url("./img/in.png");
-            background-position: -361px -53px;
+            background-image: url("./img/In-2C-54px-R.png");
+            background-position: 0px 0px;
             height: 53px;
+            background-size: 64px;
+            background-repeat: no-repeat;
             margin-top: 15px;
         }
 
@@ -184,7 +195,13 @@
 
         .hobbies__content {
             display: flex;
-
+            justify-content: center;
+            text-align: right;
+            align-items: center;
+        }
+        .hobbies__content p{
+            width:300px;
+            margin-right: 30px;
         }
 
         .models {
@@ -199,10 +216,12 @@
             line-height: 150%;
             word-spacing: .42rem;
         }
-
+        .tools{
+            list-style: none;
+        }
         .projects__image {
-            display: inline-block;
-            height: 200px;
+            display: inline-flex;
+            height: 113px;
         }
     </style>
 
@@ -250,70 +269,59 @@
             <h2 class="right__header">Projects</h2>
             <ul class="projects__list">
 
+
                 <li>
                     <p>
                         <a class="button__link button" href="https://github.com/GrzesiekKozdroj/gimball" target="_blank">Guild Ball</a>
-                        Work In Progress. I decided to translate tabletop game into canvas element, it still has a long
-                        way
-                        to go and there are no animations yet, but its fun and allows me to use mathematic formulas to
-                        calculate simple things like distances on Cartesian plane, done using vanilla JavaScript,
-                        jQuery
-                        for event listeners and HTML canvas.
+                        Work In Progress. Physical tabletop game into jQuery, JavaScript and HTML canvas.
                     </p>
-                    <a href="https://github.com/GrzesiekKozdroj/gimball"><img class="projects__image" src="./img/guildball.jpg"></a>
                 </li>
-
+                <a href="https://github.com/GrzesiekKozdroj/gimball" target="_blank"><img class="projects__image" src="./img/guildball.jpg"></a>
+                <a href="https://github.com/GrzesiekKozdroj/tic-tac-toe-5" target="_blank"><img class="projects__image" src="./img/ttt5.jpg"></a>
                 <li>
-                    <a href="https://github.com/GrzesiekKozdroj/tic-tac-toe-5"><img class="projects__image" src="./img/ttt5.jpg"></a>
                     <p>
                         <a class="button__link button" href="https://github.com/GrzesiekKozdroj/tic-tac-toe-5" target="_blank">Tic-Tac-Toe-5</a>
-                        Still needs final polishing, I want this to be easily used on touchscreen devices. A simple
-                        tic-tac-toe I have played in primary school. Me and my class mates started to play a version
-                        where
-                        we had to place 5 in row and an entire paper parchment was the battleground.
+                        Tic-tac-toe game using jQuery.
                     </p>
                 </li>
 
-                <li></li>
                 <li>
-                    <p>
+                    <p class="sitonchair">
                         <a class="button__link button" href="https://github.com/GrzesiekKozdroj/Sit-On-Chair-Web-Page"
                             target="_blank">Sit
                             On Chair</a>
-                        Bootcamp project where we had to make a very simple webpage with Pixel Perfect.
+                        Bootcamp project with Pixel Perfect and basic HTML & CSS.
                     </p>
-                    <a href="https://github.com/GrzesiekKozdroj/Sit-On-Chair-Web-Page"><img class="projects__image" src="./img/sitonchair.jpg"></a>
                 </li>
+                <a href="https://github.com/GrzesiekKozdroj/Sit-On-Chair-Web-Page" target="_blank"><img class="projects__image" src="./img/sitonchair.jpg"></a>
 
             </ul>
 
             <h2 class="right__header">Tools/technologies</h2>
-            <ul class="right__side__list">
-                <li>HTML, RWD, Sass, CSS</li>
-                <li>JavaScript, jQuery, React.js, ECMAScript 6</li>
-                <li>Git, gulp, yarn, Visual Studio</li>
+            <ul class="right__side__list tools">
+                <li>HTML, RWD, Sass, CSS,</li>
+                <li>JavaScript, jQuery, React.js, ECMAScript 6,</li>
+                <li>Git, gulp, yarn, Visual Studio.</li>
             </ul>
 
             <h2 class="right__header">Education</h2>
             <div class="education">
+                    <a href="https://coderslab.pl/en" target="_blank">
+                        <div class="cl__logo" alt="Coders Lab, IT school"></div>
+                    </a>
                 <ul class="right__side__list">
                     <li>Coders Lab, IT school (January - February 2019)</li>
                     <li>240 hours of classes focusing on the above technologies</li>
                     <li>With exams at the end of each week</li>
                     <li>They got me completely hooked up with coding</li>
                 </ul>
-                <a href="https://coderslab.pl/en" target="_blank">
-                    <div class="cl__logo" alt="Coders Lab, IT school"></div>
-                </a>
             </div>
 
             <h2 class="right__header">Hobbies</h2>
             <div class="hobbies__content">
-                <p>Painting tabletop fantasy minatures, I do this for years, strive to be efficient, these miniatures
-                    earned me living for some time and I was awarded first place in many Miniature Painting
-                    Competitions.
+                <p>Painting tabletop fantasy minatures.
                     I like good fantasy and sci-fi games, books and movies.
-                    I play table top games such as Guild Ball, Malifaux, Hordes and Warhammer</p>
+                    I play table top games and computer games</p>
                 <img class="models" src="./img/cabinet.jpg" alt="picture of my display cabinet">
             </div>
         </section>
