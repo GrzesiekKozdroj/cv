@@ -622,6 +622,7 @@ body {
   .main__container {
     width: 440px;
     height: 1304px;
+    background-position: -245px -84px;
   }
   .yellow__box {
     border: 2px dashed #ffc355;
