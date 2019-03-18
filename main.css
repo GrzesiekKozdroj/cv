@@ -618,7 +618,7 @@ body {
   background-repeat: no-repeat;
 }
 
-@media only screen and (max-width: 670px) {
+@media only screen and (max-width: 668px) {
   .main__container {
     width: 440px;
     height: 1304px;
