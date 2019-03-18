@@ -621,7 +621,7 @@ body {
 @media only screen and (max-width: 670px) {
   .main__container {
     width: 440px;
-    height: 1438px;
+    height: 1305px;
   }
   .yellow__box {
     border: 2px dashed #ffc355;
@@ -629,7 +629,7 @@ body {
   .box1 {
     order: -2;
     border: none;
-    height: 300px;
+    height: 256px;
   }
   .box2 {
     order: 2;
@@ -649,6 +649,7 @@ body {
     order: 10;
     position: relative;
     top: -0px;
+    border-radius: 95px 0 0 0;
   }
   .box7link {
     order: 13;
@@ -660,11 +661,21 @@ body {
   }
   .box9 {
     order: 5;
+    height: 100px;
+    position: relative;
+    top: -0px;
+  }
+  .box9 p {
+    top: 0px;
+    padding: 5px;
+  }
+  .box9 div {
+    border: none;
+    display: none;
   }
   .box10 {
     order: 9;
-    position: relative;
-    top: -0px;
+    border-radius: 0 0 0 95px;
   }
   .box11 {
     order: 15;
