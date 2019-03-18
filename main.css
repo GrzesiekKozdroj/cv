@@ -621,7 +621,7 @@ body {
 @media only screen and (max-width: 670px) {
   .main__container {
     width: 440px;
-    height: 1305px;
+    height: 1304px;
   }
   .yellow__box {
     border: 2px dashed #ffc355;
