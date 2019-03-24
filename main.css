@@ -109,6 +109,9 @@ body {
   border: none;
   height: 492px;
   animation: 1.5s forwards unwrapOnLoad;
+}
+
+.box1 h1 {
   font-family: 'Londrina Outline';
   color: #ffc355;
   font-size: 55px;
@@ -620,7 +623,7 @@ body {
 
 @media only screen and (max-width: 668px) {
   .main__container {
-    width: 440px;
+    width: 433px;
     height: 1304px;
     background-position: -245px -84px;
   }
