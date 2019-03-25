@@ -328,6 +328,8 @@ body {
   align-items: center;
   align-items: flex-start;
   flex-wrap: wrap;
+  line-height: 25px;
+  border-left: none;
 }
 
 .box9 p {
@@ -349,15 +351,15 @@ body {
 }
 
 .box9 .c1 {
-  top: -137px;
-  left: -61px;
+  top: -169px;
+  left: -75px;
   border-top: none;
   border-left: none;
 }
 
 .box9 .c2 {
-  top: 88px;
-  left: -74px;
+  top: 60px;
+  left: -75px;
   border-bottom: none;
   border-left: none;
 }
