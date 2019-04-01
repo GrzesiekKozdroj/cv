@@ -552,6 +552,10 @@ body {
   animation: 0.9s forwards unwrapOnLoad;
 }
 
+.box14 a {
+  text-decoration: none;
+}
+
 .box14 p {
   display: flex;
   justify-content: center;
