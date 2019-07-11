@@ -582,7 +582,7 @@ body {
   font-weight: 600;
 }
 
-.box14 .reactButton p:hover::before {
+.box14 .reactButton p::before {
   content: '';
   position: relative;
   left: 26px;
@@ -592,7 +592,7 @@ body {
   background-color: red;
 }
 
-.box14 .reactButton p:hover::after {
+.box14 .reactButton p::after {
   content: '';
   position: relative;
   left: -26px;
