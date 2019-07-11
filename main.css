@@ -582,23 +582,23 @@ body {
   font-weight: 600;
 }
 
-.box14 .reactButton p::before {
+.box14 .reactButton p:hover::before {
   content: '';
   position: relative;
   left: 26px;
   width: 10px;
   height: 100px;
-  rotate: 45deg;
+  transform: rotate(45deg);
   background-color: red;
 }
 
-.box14 .reactButton p::after {
+.box14 .reactButton p:hover::after {
   content: '';
   position: relative;
   left: -26px;
   width: 10px;
   height: 100px;
-  rotate: 135deg;
+  transform: rotate(135deg);
   background-color: red;
 }
 
