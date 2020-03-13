@@ -1,5 +1,5 @@
-@import url(https://fonts.googleapis.com/css?family=Londrina+Outline);
-@import url(https://fonts.googleapis.com/css?family=Roboto);
+@import url("https://fonts.googleapis.com/css?family=Londrina+Outline");
+@import url("https://fonts.googleapis.com/css?family=Roboto");
 @keyframes unwrapOnLoad {
   0% {
     opacity: 0;
@@ -43,7 +43,7 @@ body {
   align-content: center;
   align-items: center;
   flex-flow: column wrap;
-  background: url(images/backgroundMeGreyC.jpg);
+  background: url("./img/backgroundMeGreyC.jpg");
   background-size: 1000px;
   background-position: -144px -79px;
   animation: 1s forwards unwrapOnLoad;
@@ -180,7 +180,7 @@ body {
 
 .box2 .cl__logo,
 .box3 .cl__logo {
-  background: url(images/cl.png);
+  background: url("./img/cl.png");
   display: inline-block;
   width: 385px;
   height: 69px;
@@ -630,7 +630,7 @@ body {
 }
 
 .box15 .phone {
-  background-image: url(images/mobile_pale.png);
+  background-image: url("./img/mobile_pale.png");
   background-position: -283px -57px;
   background-size: 286px;
 }
@@ -640,7 +640,7 @@ body {
 }
 
 .box15 .github {
-  background-image: url(images/Octocat.png);
+  background-image: url("./img/Octocat.png");
   background-position: 102px -1px;
   background-size: 272px;
   background-size: 62px;
@@ -648,7 +648,7 @@ body {
 }
 
 .box15 .linkedin {
-  background-image: url(images/In-2C-54px-R.png);
+  background-image: url("./img/In-2C-54px-R.png");
   background-position: 111px -2px;
   background-size: 64px;
   background-repeat: no-repeat;
@@ -734,4 +734,3 @@ body {
     order: 8;
   }
 }
-
