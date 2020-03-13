@@ -1,0 +1,29 @@
+{
+  "files": {
+    "main.css": "/CV/static/css/main.c5bccf68.chunk.css",
+    "main.js": "/CV/static/js/main.78cb0a0c.chunk.js",
+    "main.js.map": "/CV/static/js/main.78cb0a0c.chunk.js.map",
+    "runtime-main.js": "/CV/static/js/runtime-main.8c0effe8.js",
+    "runtime-main.js.map": "/CV/static/js/runtime-main.8c0effe8.js.map",
+    "static/js/2.f5afc556.chunk.js": "/CV/static/js/2.f5afc556.chunk.js",
+    "static/js/2.f5afc556.chunk.js.map": "/CV/static/js/2.f5afc556.chunk.js.map",
+    "index.html": "/CV/index.html",
+    "precache-manifest.8ff6448d915539524f15da46024f1192.js": "/CV/precache-manifest.8ff6448d915539524f15da46024f1192.js",
+    "service-worker.js": "/CV/service-worker.js",
+    "static/css/main.c5bccf68.chunk.css.map": "/CV/static/css/main.c5bccf68.chunk.css.map",
+    "static/js/2.f5afc556.chunk.js.LICENSE.txt": "/CV/static/js/2.f5afc556.chunk.js.LICENSE.txt",
+    "static/media/main.css": "/CV/static/media/cl.c7d84aa2.png",
+    "static/media/cabinetmin.jpg": "/CV/static/media/cabinetmin.fde77b62.jpg",
+    "static/media/guildball.jpg": "/CV/static/media/guildball.2f15f102.jpg",
+    "static/media/mailing_pod_chmurami.jpg": "/CV/static/media/mailing_pod_chmurami.7d244547.jpg",
+    "static/media/oldCV.jpg": "/CV/static/media/oldCV.cd1e9322.jpg",
+    "static/media/sitonchair.jpg": "/CV/static/media/sitonchair.0b518358.jpg",
+    "static/media/ttt5.jpg": "/CV/static/media/ttt5.a5a1fd21.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.8c0effe8.js",
+    "static/js/2.f5afc556.chunk.js",
+    "static/css/main.c5bccf68.chunk.css",
+    "static/js/main.78cb0a0c.chunk.js"
+  ]
+}
