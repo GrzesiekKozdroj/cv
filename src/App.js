@@ -21,6 +21,7 @@ class App extends Component {
         forKlazz:" ",
         backKlazz:" ",
         majnButtonKlazz:" ",
+        majnBackground:" ",
         counter: Math.floor(Math.random() * (this.props.projectInfeed.length - 1)),
         playPause: true,
         playPauseIcon: '||',
@@ -46,7 +47,7 @@ class App extends Component {
     render() {
         return (
             <div>
-                <section className="main__container">
+                <section className={"main__container" + this.state.majnBackground}>
                     <Box1 />
                     <div className={"play scale-in-down mui-enter"+this.state.majnButtonKlazz}>
                         <div className={"pausePlay hinge-in-from-right mui-enter"+this.state.forKlazz}
@@ -80,6 +81,7 @@ class App extends Component {
             forKlazz:" mui-enter-active",
             backKlazz:" mui-enter-active"
         }),2800)
+        setTimeout(()=>this.setState({majnBackground:" main__container__anim"}),2500)
         let counter = 1;
         let indexLength = this.props.projectInfeed.length - 1;
         setInterval(() => {

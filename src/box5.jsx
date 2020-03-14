@@ -8,7 +8,7 @@ class Box5 extends Component {
     }
     render() {
         return (
-            <div className={"yellow__box box5 hinge-in-from-right mui-enter"+this.state.klazz}></div>
+            <div className={"yellow__box box5 hinge-in-from-bottom mui-enter"+this.state.klazz}></div>
         )
 
     }

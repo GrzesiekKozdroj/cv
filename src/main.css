@@ -43,10 +43,13 @@ body {
   align-content: center;
   align-items: center;
   flex-flow: column wrap;
+  animation: 1s forwards unwrapOnLoad;
+}
+
+.main__container__anim {
   background: url("./img/backgroundMeGreyC.jpg");
   background-size: 1000px;
   background-position: -144px -79px;
-  animation: 1s forwards unwrapOnLoad;
 }
 
 .yellow__box {
@@ -120,6 +123,9 @@ body {
   border: none;
   height: 492px;
   animation: 1.5s forwards unwrapOnLoad;
+  background: url("./img/backgroundMeGreyC.jpg");
+  background-position: 23.6% 13%;
+  background-size: 461%;
 }
 
 .box1 h1 {
@@ -139,6 +145,9 @@ body {
   color: orange;
   font-size: 22px;
   font-weight: 900;
+  background: url("./img/backgroundMeGreyC.jpg");
+  background-position: 23.6% 44.77%;
+  background-size: 461%;
 }
 
 .play div {
@@ -197,6 +206,9 @@ body {
   justify-content: center;
   align-content: center;
   align-items: center;
+  background: url("./img/backgroundMeGreyC.jpg");
+  background-position: 23.6% 51.25%;
+  background-size: 461%;
 }
 
 .box2 img {
@@ -208,6 +220,9 @@ body {
 
 .box3 {
   animation: 1s forwards unwrapOnLoad;
+  background: url("./img/backgroundMeGreyC.jpg");
+  background-position: 23.6% 66.25%;
+  background-size: 461%;
 }
 
 .box4 {
@@ -218,6 +233,9 @@ body {
   flex-flow: column;
   color: white;
   height: 270px;
+  background: url("./img/backgroundMeGreyC.jpg");
+  background-position: 23.6% 79.4%;
+  background-size: 461%;
   animation: 1.2s forwards unwrapOnLoad;
 }
 
@@ -236,6 +254,9 @@ body {
   height: 280px;
   border: none;
   animation: 1.8s forwards unwrapOnLoad;
+  background: url("./img/backgroundMeGreyC.jpg");
+  background-position: -76% 9.3%;
+  background-size: 465%;
 }
 
 .box6 {
@@ -246,6 +267,9 @@ body {
   height: 135px;
   border-right: none;
   animation: 0.1s forwards unwrapOnLoad;
+  background: url("./img/backgroundMeGreyC.jpg");
+  background-position: -75% -80%;
+  background-size: 477%;
 }
 
 .box6 .heart {
@@ -309,6 +333,9 @@ body {
   line-height: 21px;
   text-align: justify;
   animation: 0.5s forwards unwrapOnLoad;
+  background: url("./img/backgroundMeGreyC.jpg");
+  background-position: -76% -78%;
+  background-size: 465%;
 }
 
 .box8 {
@@ -318,6 +345,9 @@ body {
   justify-content: center;
   align-content: center;
   align-items: center;
+  background: url("./img/backgroundMeGreyC.jpg");
+  background-position: -76% -49%;
+  background-size: 470%;
   animation: 0.8s forwards unwrapOnLoad;
 }
 
@@ -352,6 +382,9 @@ body {
   color: white;
   font-family: Roboto;
   text-align: right;
+  background: url("./img/backgroundMeGreyC.jpg");
+  background-position: -207% -45%;
+  background-size: 446%;
 }
 
 .box9 .contact {
@@ -384,6 +417,9 @@ body {
   flex-wrap: wrap;
   border-bottom: none;
   animation: 1.6s forwards unwrapOnLoad;
+  background: url("./img/backgroundMeGreyC.jpg");
+  background-position: -48.7% 8.7%;
+  background-size: 462%;
 }
 
 .box10 .brain1 {
@@ -477,6 +513,9 @@ body {
   align-items: center;
   color: white;
   font-size: 14px;
+  background: url("./img/backgroundMeGreyC.jpg");
+  background-position: -47.5% 20%;
+  background-size: 484%;
   animation: 1s forwards unwrapOnLoad;
 }
 
@@ -490,6 +529,9 @@ body {
   border: none;
   border-left: 2px dashed #ffc355;
   animation: 1s forwards unwrapOnLoad;
+  background: url("./img/backgroundMeGreyC.jpg");
+  background-position: -49.5% 30%;
+  background-size: 442%;
 }
 
 .box13 {
@@ -500,6 +542,9 @@ body {
   align-items: center;
   border-bottom: none;
   animation: 0.9s forwards unwrapOnLoad;
+  background: url("./img/backgroundMeGreyC.jpg");
+  background-position: -49% 40%;
+  background-size: 458%;
 }
 
 .box13 .mouse__cable {
@@ -561,6 +606,9 @@ body {
   font-size: 32px;
   font-weight: 900;
   animation: 0.9s forwards unwrapOnLoad;
+  background: url("./img/backgroundMeGreyC.jpg");
+  background-position: -49% 57%;
+  background-size: 458%;
 }
 
 .box14 a {
@@ -612,6 +660,9 @@ body {
   align-items: center;
   flex-wrap: wrap;
   flex-flow: column;
+  background: url("./img/backgroundMeGreyC.jpg");
+  background-position: -49% -44%;
+  background-size: 462%;
 }
 
 .box15 .button {

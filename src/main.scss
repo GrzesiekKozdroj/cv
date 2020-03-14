@@ -3,6 +3,7 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto');
 $bordersColor: rgb(255, 195, 85);
 $yellowBorders: rgb(255, 255, 0);
+$backgroundImage:'./img/backgroundMeGreyC.jpg';
 @keyframes unwrapOnLoad {
     0%{
         opacity:0;
@@ -44,12 +45,13 @@ body {
     height: 1147px;
     @include flex;
     flex-flow: column wrap;
-    background: url('./img/backgroundMeGreyC.jpg');
-    background-size:1000px;
-    background-position: -144px -79px;
     animation: 1s forwards unwrapOnLoad;
 }
-
+.main__container__anim{
+    background: url($backgroundImage);
+    background-size:1000px;
+    background-position: -144px -79px;
+}
 .yellow__box {
     width: 217px;
     height: 211px;
@@ -67,6 +69,9 @@ body {
     border: none;
     height: 492px;
     animation:1.5s forwards unwrapOnLoad;
+    background: url($backgroundImage);
+    background-position: 23.6% 13%;
+    background-size: 461%;
     h1{
         font-family: 'Londrina Outline';
         color: $bordersColor;
@@ -81,6 +86,9 @@ body {
     color: orange;
     font-size: 22px;
     font-weight:900;
+    background: url($backgroundImage);
+    background-position: 23.6% 44.77%;
+    background-size: 461%;
     div{
         width:30px;
         height:30px;
@@ -125,6 +133,9 @@ body {
 }
 .box2 {
     @include flex;
+    background: url($backgroundImage);
+    background-position: 23.6% 51.25%;
+    background-size: 461%;
     img{
         max-height:120px;
         max-width: 210px;
@@ -134,6 +145,9 @@ body {
 }
 .box3{
     animation:1s forwards unwrapOnLoad;
+    background: url($backgroundImage);
+    background-position: 23.6% 66.25%;
+    background-size: 461%;
 }
 
 .box4 {
@@ -141,6 +155,9 @@ body {
     flex-flow:column;
     color:white;
     height: 270px;
+    background: url($backgroundImage);
+    background-position: 23.6% 79.4%;
+    background-size: 461%;
     ul{
         width:180px;
         list-style: circle outside none;
@@ -158,6 +175,9 @@ body {
     height: 280px;
     border: none;
     animation:1.8s forwards unwrapOnLoad;
+    background: url($backgroundImage);
+    background-position: -76% 9.3%;
+    background-size: 465%;
 }
 
 @mixin heart {
@@ -184,6 +204,9 @@ body {
     height: 135px;
     border-right:none;
     animation:0.1s forwards unwrapOnLoad;
+    background: url($backgroundImage);
+    background-position: -75% -80%;
+    background-size: 477%;
     .heart {
         @include heart;
 
@@ -225,12 +248,18 @@ body {
     line-height:21px;
     text-align: justify;
     animation:0.5s forwards unwrapOnLoad;
+    background: url($backgroundImage);
+    background-position: -76% -78%;
+    background-size: 465%;
 }
 
 .box8 {
     height: 129px;
     border-right:none;
     @include flex;
+    background: url($backgroundImage);
+    background-position: -76% -49%;
+    background-size: 470%;
     ul{
         color:white;
         list-style: lower-greek;
@@ -259,6 +288,9 @@ body {
     color:white;
     font-family: Roboto;
     text-align: right;
+    background: url($backgroundImage);
+    background-position: -207% -45%;
+    background-size: 446%;
     }
     .contact{
         width: 13px;
@@ -286,6 +318,9 @@ body {
     flex-wrap:wrap;
     border-bottom:none;
     animation:1.6s forwards unwrapOnLoad;
+    background: url($backgroundImage);
+    background-position: -48.7% 8.7%;
+    background-size: 462%;
     .brain1 {
         border-top: 2px solid white;
         border-left: 2px solid white;
@@ -376,6 +411,9 @@ body {
     @include flex;
     color: white;
     font-size: 14px;
+    background: url($backgroundImage);
+    background-position: -47.5% 20%;
+    background-size: 484%;
     ul{
         width:192px;
         list-style: none outside none;
@@ -388,6 +426,9 @@ body {
     border: none;
     border-left:2px dashed $bordersColor;
     animation:1s forwards unwrapOnLoad;
+    background: url($backgroundImage);
+    background-position: -49.5% 30%;
+    background-size: 442%;
 }
 
 .box13 {
@@ -395,6 +436,9 @@ body {
     @include flex;
     border-bottom:none;
     animation:0.9s forwards unwrapOnLoad;
+    background: url($backgroundImage);
+    background-position: -49% 40%;
+    background-size: 458%;
     .mouse__cable {
         border: none;
         border-top: 2px solid white;
@@ -446,6 +490,9 @@ body {
     font-size:32px;
     font-weight:900;
     animation:0.9s forwards unwrapOnLoad;
+    background: url($backgroundImage);
+    background-position: -49% 57%;
+    background-size: 458%;
     a{text-decoration: none;}
     p{
         @include flex;
@@ -490,6 +537,9 @@ body {
     @include flex;
     flex-wrap:wrap;
     flex-flow:column;
+    background: url($backgroundImage);
+    background-position: -49% -44%;
+    background-size: 462%;
     .button {
         display: flex;
         align-items: center;

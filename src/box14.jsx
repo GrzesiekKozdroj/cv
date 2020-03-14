@@ -4,7 +4,7 @@ class Box14 extends Component {
         klazz:" "
     }
     componentDidMount(){
-        setTimeout(()=>this.setState({klazz:" mui-enter-active"}),800)
+        setTimeout(()=>this.setState({klazz:" mui-enter-active"}),1000)
     }
     render() {
         return (
