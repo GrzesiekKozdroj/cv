@@ -8,7 +8,7 @@ class Box10 extends Component {
     }
     render() {
         return (
-            <div className={"yellow__box box10 hinge-in-from-bottom mui-enter"+this.state.klazz}>
+            <div className={"yellow__box box10 hinge-in-from-bottom mui-enter fast"+this.state.klazz}>
                 <div className="brain1"></div>
                 <div className="brain2"></div>
                 <div className="brain3"></div>

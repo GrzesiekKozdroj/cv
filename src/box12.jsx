@@ -8,7 +8,7 @@ class Box12 extends Component {
     }
     render() {
         return (
-            <div className={"yellow__box box12 hinge-in-from-left mui-enter"+this.state.klazz}></div>
+            <div className={"yellow__box box12 hinge-in-from-left mui-enter fast"+this.state.klazz}></div>
         )
 
     }
