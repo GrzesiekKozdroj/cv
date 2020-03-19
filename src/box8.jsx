@@ -10,10 +10,12 @@ class Box8 extends Component {
         return (
             <div className={"yellow__box box8 hinge-in-from-top mui-enter"+this.state.klazz}>
                 <ul>
-                    <li>Coders Lab, IT school </li>
-                    <li>(January - February 2019)</li>
-                    <li>240 hours of classes</li>
-                    <li>Got me completely hooked up with coding</li>
+                    <li> pizza! </li>
+                    <li> black tea </li>
+                    <li> learning useful things</li>
+                    <li> winning games </li>
+                    <li> mongolian rock </li>
+                    <li> coding &lt;3 </li>
                 </ul>
             </div>
         )

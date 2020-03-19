@@ -5,7 +5,9 @@ import './motion-ui.css';
 import './main.css';
 import * as serviceWorker from './serviceWorker';
 import img1 from './img/ttt5.jpg'; import img2 from './img/guildball.jpg';import img3 from './img/sitonchair.jpg';
-import img4 from './img/oldCV.jpg'; import img5 from './img/mailing_pod_chmurami.jpg';
+import img4 from './img/oldCV.jpg'; import img5 from './img/mailing_pod_chmurami.jpg'; import img6 from './img/mern.jpg';
+import img7 from './img/tech-doc.png'; import img8 from './img/fractal.png'; import img9 from './img/todos.png';
+import img10 from './img/forum.png'
 const projectInfeed = [
     {
         text: 'Tic-tac-toe game using jQuery. But with a twist, in primary school I realised classic game with three fields gives no true way of actually playing, so me and my friend made a "expanded" version of this game. Click on picture for live example, or description fo github repo.                    ',
@@ -42,6 +44,41 @@ const projectInfeed = [
         urlExample:'https://grzesiekkozdroj.github.io/Coders-Lab-Workshop-Mailing/',
         alt:'github workshop mailing',
     },
+    {
+        text:"Created simple server, this was just an exercise to help me understand better how to create database and connect it with self-written server and send that data to front-end with options to add, edit and delete.                    ",
+        img:img6,
+        url:'https://github.com/GrzesiekKozdroj/MERN-stack-first-learning-project',
+        urlExample:'https://github.com/GrzesiekKozdroj/MERN-stack-first-learning-project',
+        alt:'M_E_R_N',
+    },
+    {
+        text:'Mockup of a teachnical documentation page, project was requiered by freeCodeCamp to complete one of their courses. It uses none of fancy new web techologies, it does not need them.                    ',
+        img:img7,
+        url:'https://github.com/GrzesiekKozdroj/technical-documentation',
+        urlExample:'https://grzesiekkozdroj.github.io/technical-documentation/',
+        alt:'technical documentation',
+    },
+    {
+        text:'I wondered why there are no awesome infinitely zooming in fractals out there untill I tried to make my own and got crushed by how long it take to generate just one frame. Here is a fine example of this obstacle. I will try to optimise it though. This project is just too trippy.                    ',
+        img:img8,
+        url:'https://github.com/GrzesiekKozdroj/mandelbrot-react-SLOW',
+        urlExample:'https://grzesiekkozdroj.github.io/mandelbrot-react-SLOW/',
+        alt:'mandelbrot fractal',
+    },
+    {
+        text:'Simple to do list exercise with react and redux. Because of some yet unknown reason it works locally but not on gihtub pages....                    ',
+        img:img9,
+        url:'https://github.com/GrzesiekKozdroj/to-do-list-react-redux',
+        urlExample:'https://grzesiekkozdroj.github.io/to-do-list-react-redux/',
+        alt:'to do list',
+    },
+    {
+        text:'Simple react exercise with use of router. However live example is not live because github and react router clashes.                    ',
+        img:img10,
+        url:'https://github.com/GrzesiekKozdroj/forum-mockup',
+        urlExample:'https://grzesiekkozdroj.github.io/forum-mockup/',
+        alt:'forum mock up',
+    }
     // {
     //     text:'',
     //     img:require(''),

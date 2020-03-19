@@ -15,7 +15,7 @@ class Box9 extends Component {
                 GregKozdroj@gmail.com
             </p>
             <div className="contact c1"></div>
-            <div className="contact c2"></div>        
+            <div className="contact c2"></div>
             </div>
         )
 

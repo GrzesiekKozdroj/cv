@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "4a8346515f88c17c83a703b74b90c919",
+    "revision": "57e0d7898538aa313a0715b751e21f63",
     "url": "/CV/index.html"
   },
   {
-    "revision": "10c64a9273cfd5d06e32",
-    "url": "/CV/static/css/main.d1e4e924.chunk.css"
+    "revision": "4fe8189292af6a3d70ce",
+    "url": "/CV/static/css/main.a3dc411f.chunk.css"
   },
   {
-    "revision": "11c6f61603b253686b14",
-    "url": "/CV/static/js/2.6d041e62.chunk.js"
+    "revision": "a2c9b1f1449f96ff9461",
+    "url": "/CV/static/js/2.2262e3b8.chunk.js"
   },
   {
     "revision": "5356fa2f66e46e6c05e4cbe319ac7f1d",
-    "url": "/CV/static/js/2.6d041e62.chunk.js.LICENSE.txt"
+    "url": "/CV/static/js/2.2262e3b8.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "10c64a9273cfd5d06e32",
-    "url": "/CV/static/js/main.9d695b2f.chunk.js"
+    "revision": "4fe8189292af6a3d70ce",
+    "url": "/CV/static/js/main.f595f202.chunk.js"
   },
   {
     "revision": "f990a39842b7cfab5ef3",
@@ -40,6 +40,14 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/CV/static/media/cl.c7d84aa2.png"
   },
   {
+    "revision": "ff990dc67497f4f72e3376be719b024d",
+    "url": "/CV/static/media/forum.ff990dc6.png"
+  },
+  {
+    "revision": "722b68e3e656b79395c393951b8fd822",
+    "url": "/CV/static/media/fractal.722b68e3.png"
+  },
+  {
     "revision": "2f15f102cc69a4cb0b3171514ae86427",
     "url": "/CV/static/media/guildball.2f15f102.jpg"
   },
@@ -48,12 +56,24 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/CV/static/media/mailing_pod_chmurami.7d244547.jpg"
   },
   {
+    "revision": "9b396865cf1960ee124321861b0cbf7f",
+    "url": "/CV/static/media/mern.9b396865.jpg"
+  },
+  {
     "revision": "cd1e9322a66571d9a399a3747b0307f6",
     "url": "/CV/static/media/oldCV.cd1e9322.jpg"
   },
   {
     "revision": "0b518358276b2720d1319109b9dd2bfd",
     "url": "/CV/static/media/sitonchair.0b518358.jpg"
+  },
+  {
+    "revision": "eae0875cd2cf4e088ad0c686b31d107a",
+    "url": "/CV/static/media/tech-doc.eae0875c.png"
+  },
+  {
+    "revision": "470c2076ae1b7db94c1d578d2aa911aa",
+    "url": "/CV/static/media/todos.470c2076.png"
   },
   {
     "revision": "a5a1fd21d9cca80b519b713eab7a28c8",

@@ -252,6 +252,11 @@ body {
     background-position: -76% -78%;
     background-size: 465%;
 }
+@counter-style pluz {
+    system: cyclic;
+    symbols: "+";
+    suffix: "  ";
+  }
 
 .box8 {
     height: 129px;
@@ -262,7 +267,7 @@ body {
     background-size: 470%;
     ul{
         color:white;
-        list-style: lower-greek;
+        list-style: pluz;
         width:182px;
         padding-left:26px;
         font-size: 15px;
@@ -497,6 +502,9 @@ body {
     a{text-decoration: none;}
     p{
         @include flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
         width:60px;
         height:60px;
         border:2px solid $yellowBorders;

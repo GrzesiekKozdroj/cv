@@ -1,29 +1,34 @@
 {
   "files": {
-    "main.css": "/CV/static/css/main.d1e4e924.chunk.css",
-    "main.js": "/CV/static/js/main.9d695b2f.chunk.js",
-    "main.js.map": "/CV/static/js/main.9d695b2f.chunk.js.map",
+    "main.css": "/CV/static/css/main.a3dc411f.chunk.css",
+    "main.js": "/CV/static/js/main.f595f202.chunk.js",
+    "main.js.map": "/CV/static/js/main.f595f202.chunk.js.map",
     "runtime-main.js": "/CV/static/js/runtime-main.8c0effe8.js",
     "runtime-main.js.map": "/CV/static/js/runtime-main.8c0effe8.js.map",
-    "static/js/2.6d041e62.chunk.js": "/CV/static/js/2.6d041e62.chunk.js",
-    "static/js/2.6d041e62.chunk.js.map": "/CV/static/js/2.6d041e62.chunk.js.map",
+    "static/js/2.2262e3b8.chunk.js": "/CV/static/js/2.2262e3b8.chunk.js",
+    "static/js/2.2262e3b8.chunk.js.map": "/CV/static/js/2.2262e3b8.chunk.js.map",
     "index.html": "/CV/index.html",
-    "precache-manifest.129981ae5c67e9bf6d720af251780b4c.js": "/CV/precache-manifest.129981ae5c67e9bf6d720af251780b4c.js",
+    "precache-manifest.9ff6ff4ab65a69c97cb95c84445e1929.js": "/CV/precache-manifest.9ff6ff4ab65a69c97cb95c84445e1929.js",
     "service-worker.js": "/CV/service-worker.js",
-    "static/css/main.d1e4e924.chunk.css.map": "/CV/static/css/main.d1e4e924.chunk.css.map",
-    "static/js/2.6d041e62.chunk.js.LICENSE.txt": "/CV/static/js/2.6d041e62.chunk.js.LICENSE.txt",
+    "static/css/main.a3dc411f.chunk.css.map": "/CV/static/css/main.a3dc411f.chunk.css.map",
+    "static/js/2.2262e3b8.chunk.js.LICENSE.txt": "/CV/static/js/2.2262e3b8.chunk.js.LICENSE.txt",
     "static/media/main.css": "/CV/static/media/cl.c7d84aa2.png",
     "static/media/cabinetmin.jpg": "/CV/static/media/cabinetmin.fde77b62.jpg",
+    "static/media/forum.png": "/CV/static/media/forum.ff990dc6.png",
+    "static/media/fractal.png": "/CV/static/media/fractal.722b68e3.png",
     "static/media/guildball.jpg": "/CV/static/media/guildball.2f15f102.jpg",
     "static/media/mailing_pod_chmurami.jpg": "/CV/static/media/mailing_pod_chmurami.7d244547.jpg",
+    "static/media/mern.jpg": "/CV/static/media/mern.9b396865.jpg",
     "static/media/oldCV.jpg": "/CV/static/media/oldCV.cd1e9322.jpg",
     "static/media/sitonchair.jpg": "/CV/static/media/sitonchair.0b518358.jpg",
+    "static/media/tech-doc.png": "/CV/static/media/tech-doc.eae0875c.png",
+    "static/media/todos.png": "/CV/static/media/todos.470c2076.png",
     "static/media/ttt5.jpg": "/CV/static/media/ttt5.a5a1fd21.jpg"
   },
   "entrypoints": [
     "static/js/runtime-main.8c0effe8.js",
-    "static/js/2.6d041e62.chunk.js",
-    "static/css/main.d1e4e924.chunk.css",
-    "static/js/main.9d695b2f.chunk.js"
+    "static/js/2.2262e3b8.chunk.js",
+    "static/css/main.a3dc411f.chunk.css",
+    "static/js/main.f595f202.chunk.js"
   ]
 }

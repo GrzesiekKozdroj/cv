@@ -12,10 +12,10 @@ class Box11 extends Component {
                 <ul>
                     <li>+ I want to challenge myself.</li>
                     <li>+ I want to improve my skills.</li>
-                    <li>+ Started learing at 2018.</li>
-                    <li>+ First, mobile app SoloLearn.</li>
-                    <li>+ Then various online tutorials.</li>
-                    <li>+ Finally a bootcamp.</li>
+                    <li>+ And learn more.</li>
+                    <li>+ Started with online tutorials.</li>
+                    <li>+ Then at CodersLab. </li>
+                    <li>+ Now I code and continue to learn!</li>
                 </ul>
             </div>
         )
