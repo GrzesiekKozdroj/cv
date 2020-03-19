@@ -20,7 +20,7 @@ const projectInfeed = [
         text: 'Work In Progress. This is probably the first attempt at converting physical tabletop game - Guild Ball into jQuery, JavaScript and HTML canvas game. Intention is to make interface that allows players to enjoy the game while also limiting their manuverability to what is legal rules wise.                    ',
         img: img2,
         url: 'https://github.com/GrzesiekKozdroj/gimball',
-        urlExample: 'https://grzesiekkozdroj.github.io/gimball/',
+        urlExample: 'https://grzesiekkozdroj.github.io/Guild-Ball/',
         alt: 'picture of a Guild Ball game',
     },
     {
@@ -33,8 +33,8 @@ const projectInfeed = [
     {
         text: 'Old CV of mine, static and classic, but still functional, I had fun using react while developing it. Click on picture for live example, or description fo github repo.                    ',
         img: img4,
-        url: 'https://github.com/GrzesiekKozdroj/Grzesiek-Kozdroj-Resume',
-        urlExample: 'https://grzesiekkozdroj.github.io/Grzesiek-Kozdroj-Resume/',
+        url: 'https://github.com/GrzesiekKozdroj/Grzesiek-Kozdroj-Old_CV/',
+        urlExample: 'https://grzesiekkozdroj.github.io/Grzesiek-Kozdroj-Old_CV/',
         alt: 'picture of my old portfolio',
     },
     {
@@ -66,14 +66,14 @@ const projectInfeed = [
         alt:'mandelbrot fractal',
     },
     {
-        text:'Simple to do list exercise with react and redux. Because of some yet unknown reason it works locally but not on gihtub pages....                    ',
+        text:'Simple to do list exercise with react and ability to invoke its events                    ',
         img:img9,
-        url:'https://github.com/GrzesiekKozdroj/to-do-list-react-redux',
-        urlExample:'https://grzesiekkozdroj.github.io/to-do-list-react-redux/',
+        url:'https://github.com/GrzesiekKozdroj/to_do_list-react',
+        urlExample:'https://grzesiekkozdroj.github.io/to_do_list-react/',
         alt:'to do list',
     },
     {
-        text:'Simple react exercise with use of router. However live example is not live because github and react router clashes.                    ',
+        text:"Simple react exercise with use of router. Posts won't load though, not until one of the links in the navbar isn't visited, I need to look at way data is requested.                    ",
         img:img10,
         url:'https://github.com/GrzesiekKozdroj/forum-mockup',
         urlExample:'https://grzesiekkozdroj.github.io/forum-mockup/',
