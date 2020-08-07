@@ -8,8 +8,8 @@ class Box7 extends Component {
     }
     render() {
         return (
-            <a href={this.props.url} target="_blank" className="box7link" rel="noopener noreferrer">
-                <div className={"yellow__box box7 hinge-in-from-top mui-enter" + this.state.klazz}
+            <a href={this.props.url} target="_blank" className={"box7link hinge-in-from-top mui-enter " + this.state.klazz} rel="noopener noreferrer">
+                <div className="yellow__box box7"
                  id="projects">{this.props.text}</div>
             </a>
         )

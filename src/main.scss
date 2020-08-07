@@ -28,7 +28,7 @@ $backgroundImage:'./img/backgroundMeGreyC.jpg';
 
 body {
     @include flex;
-    background-color: #cec5c5;
+    background-color: #1f1d1d;
 }
 %buttonAnimation{
     &:hover{
@@ -158,6 +158,7 @@ body {
     background: url($backgroundImage);
     background-position: 23.6% 79.4%;
     background-size: 461%;
+    z-index:1;
     ul{
         width:180px;
         list-style: circle outside none;
@@ -234,6 +235,9 @@ body {
 .box7link{
     text-decoration: none;
     @extend %buttonAnimation;
+    background: url($backgroundImage);
+    background-position: -76% -78%;
+    background-size: 465%;
 }
 .box7 {
     height: 267px;
@@ -248,9 +252,6 @@ body {
     line-height:21px;
     text-align: justify;
     animation:0.5s forwards unwrapOnLoad;
-    background: url($backgroundImage);
-    background-position: -76% -78%;
-    background-size: 465%;
 }
 @counter-style pluz {
     system: cyclic;
@@ -284,18 +285,18 @@ body {
     flex-wrap:wrap;
     line-height: 25px; 
     border-left:none;
-    p{
-    padding-top:35px;
-    padding-left:15px;
-    position:relative;
-    top:-78px;
-    left:1px;
-    color:white;
-    font-family: Roboto;
-    text-align: right;
     background: url($backgroundImage);
     background-position: -207% -45%;
     background-size: 446%;
+    p{
+        padding-top:35px;
+        padding-left:15px;
+        position:relative;
+        top:-78px;
+        left:1px;
+        color:white;
+        font-family: Roboto;
+        text-align: right;
     }
     .contact{
         width: 13px;
@@ -606,24 +607,84 @@ body {
     .yellow__box{
         border: 2px dashed $bordersColor;
     }
-    .box1{order:-2;border:none;height:256px}
-    .box2{order:2;}
-    .box3{order:-1;}
-    .box4{order:4;}
+    .box1{
+        order:-2;
+        border:none;
+        height:256px;
+        background-position: -96.37% 11.2%;
+        background-size: 461%;
+    }
+    .play{
+        background-position: 31.13% 37.59%;
+        background-size: 461%;
+    }
+    .box2{
+        order:2;
+        background-position: 31.13% 43.79%;
+        background-size: 461%;
+    }
+    .box3{
+        order:-1;
+        background-position: -96.67% 30.42%;
+        background-size: 461%;
+    }
+    .box4{
+        order:4;
+        background-position: -96.87% 60.59%;
+        background-size: 461%;
+    }
     .box5{order:20;height:0px;border:none;}
-    .box6{order:10;position:relative;top:-0px;border-radius:95px 0 0 0;}
-    .box7link{order:13;}
-    .box8{order:11;position:relative;top:-0px;}
+    .box6{
+        order:10;
+        position:relative;
+        top:-0px;
+        border-radius:95px 0 0 0;
+        background-position: -68.7% 21.43%;
+        background-size: 461%;
+    }
+    .box7link{
+        order:13;
+        background-position:-68.57% 46.91%;
+        background-size: 461%;
+    }
+    .box8{
+        order:11;
+        position:relative;
+        top:-0px;
+        background-position: -68.57% 31.91%;
+        background-size: 461%;
+    }
     .box9{
         order:5;
         height:100px;position:relative;top:-0px;
+        background-position: -227% -35%;
         p{top:0px;padding:5px;}
         div{border:none;display:none;}
     }
-    .box10{order:9;border-radius:0 0 0 95px;}
-    .box11{order:15;position:relative;top:-0px;}
+    .box10{
+        order:9;
+        border-radius:0 0 0 95px;
+        background-position: -68.7% 10.25%;
+        background-size: 461%;
+    }
+    .box11{
+        order:15;position:relative;top:-0px;
+        background-position: -68.57% 94.59%;
+        background-size: 461%;
+    }
     .box12{order:12;height:0px;border:none;}
-    .box13{order:13;}
-    .box14{order:14;}
-    .box15{order:8;}
+    .box13{
+        order:13;
+        background-position: -68.57% 62.94%;
+        background-size: 461%;
+    }
+    .box14{
+        order:14;
+        background-position: -68.57% 81.79%;
+        background-size: 461%;
+    }
+    .box15{
+        order:8;
+        background-position: -224% -30.9%;
+    }
 }

@@ -29,7 +29,9 @@ class App extends Component {
         projectImg: this.props.projectInfeed[0].img,
         url: this.props.projectInfeed[0].url,
         urlExample: this.props.projectInfeed[0].url,
-        alt: this.props.projectInfeed[0].alt
+        alt: this.props.projectInfeed[0].alt,
+        isLoaded: false,
+        backgrounds: {}
     }
     pausePlay = (event) => {
         event.preventDefault();
@@ -42,7 +44,6 @@ class App extends Component {
     forwardClick = (event) => { event.preventDefault(); this.play(+1) }
     play = (digit) => {
         this.setState({ counter: (this.state.counter + digit) === -1 ? this.props.projectInfeed.length - 1 : (this.state.counter + digit) % this.props.projectInfeed.length })
-        console.log(this.state.counter)
     }
     render() {
         return (
@@ -57,25 +58,41 @@ class App extends Component {
                         <div className={"rewind hinge-in-from-left mui-enter"+this.state.backKlazz} 
                             onClick={e => this.forwardClick(e)}>&gt;&gt;</div>
                     </div>
-                    <Box2 imgicon={this.state.projectImg} url={this.state.urlExample} alt={this.state.alt} />
-                    <Box3 />
-                    <Box4 />
-                    <Box5 />
-                    <Box6 />
-                    <Box7 text={this.state.typer} url={this.state.url} />
-                    <Box8 />
-                    <Box9 />
-                    <Box10 />
-                    <Box11 />
-                    <Box12 />
-                    <Box13 />
-                    <Box14 />
-                    <Box15 />
+                    <Box2 imgicon={this.state.projectImg} url={this.state.urlExample} alt={this.state.alt}/>
+                    <Box3 style={this.state.backgrounds}/>
+                    <Box4 style={this.state.backgrounds}/>
+                    <Box5 style={this.state.backgrounds}/>
+                    <Box6 style={this.state.backgrounds}/>
+                    <Box7 text={this.state.typer} url={this.state.url}/>
+                    <Box8 style={this.state.backgrounds}/>
+                    <Box9 style={this.state.backgrounds}/>
+                    <Box10 style={this.state.backgrounds}/>
+                    <Box11 style={this.state.backgrounds}/>
+                    <Box12 style={this.state.backgrounds}/>
+                    <Box13 style={this.state.backgrounds}/>
+                    <Box14 style={this.state.backgrounds}/>
+                    <Box15 style={this.state.backgrounds}/>
                 </section>
             </div>
         )
     }
     componentDidMount() {
+        console.log(this.state.backgrounds.largeImageURL)
+        fetch('https://pixabay.com/api/?key=11506822-1403b5b6e423f8d19e23a25d5&q=milkyway&image_type=photo&pretty=true&mode=no-cors')
+        .then( resp => resp.json())
+        .then(
+          (result) => {
+              const backgrounds = result.hits
+            this.setState({
+              isLoaded: true,
+              backgrounds: backgrounds[Math.ceil(Math.random()*20)]
+            });
+            console.log(this.state.backgrounds)
+        })
+        .catch(err=>{
+            console.log(err)
+        })
+
         setTimeout(()=>this.setState({majnButtonKlazz:" mui-enter-active"}),2000)
         setTimeout(()=>this.setState({
             forKlazz:" mui-enter-active",
@@ -104,7 +121,7 @@ class App extends Component {
                     counter = 1;
                 }
             }
-        }, this.props.projectInfeed[this.state.counter].text.length / 4);
+        }, this.props.projectInfeed[this.state.counter].text.length / 5.5);
     }
     //componentWillUnmount() { clearInterval(myInt) }
 }

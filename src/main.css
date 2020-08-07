@@ -21,7 +21,7 @@ body {
   justify-content: center;
   align-content: center;
   align-items: center;
-  background-color: #cec5c5;
+  background-color: #1f1d1d;
 }
 
 .play div:hover, .box2:hover,
@@ -236,6 +236,7 @@ body {
   background: url("./img/backgroundMeGreyC.jpg");
   background-position: 23.6% 79.4%;
   background-size: 461%;
+  z-index: 1;
   animation: 1.2s forwards unwrapOnLoad;
 }
 
@@ -315,6 +316,9 @@ body {
 
 .box7link {
   text-decoration: none;
+  background: url("./img/backgroundMeGreyC.jpg");
+  background-position: -76% -78%;
+  background-size: 465%;
 }
 
 .box7 {
@@ -333,9 +337,6 @@ body {
   line-height: 21px;
   text-align: justify;
   animation: 0.5s forwards unwrapOnLoad;
-  background: url("./img/backgroundMeGreyC.jpg");
-  background-position: -76% -78%;
-  background-size: 465%;
 }
 
 @counter-style pluz {
@@ -377,6 +378,9 @@ body {
   flex-wrap: wrap;
   line-height: 25px;
   border-left: none;
+  background: url("./img/backgroundMeGreyC.jpg");
+  background-position: -207% -45%;
+  background-size: 446%;
 }
 
 .box9 p {
@@ -388,9 +392,6 @@ body {
   color: white;
   font-family: Roboto;
   text-align: right;
-  background: url("./img/backgroundMeGreyC.jpg");
-  background-position: -207% -45%;
-  background-size: 446%;
 }
 
 .box9 .contact {
@@ -728,15 +729,27 @@ body {
     order: -2;
     border: none;
     height: 256px;
+    background-position: -96.37% 11.2%;
+    background-size: 461%;
+  }
+  .play {
+    background-position: 31.13% 37.59%;
+    background-size: 461%;
   }
   .box2 {
     order: 2;
+    background-position: 31.13% 43.79%;
+    background-size: 461%;
   }
   .box3 {
     order: -1;
+    background-position: -96.67% 30.42%;
+    background-size: 461%;
   }
   .box4 {
     order: 4;
+    background-position: -96.87% 60.59%;
+    background-size: 461%;
   }
   .box5 {
     order: 20;
@@ -748,20 +761,27 @@ body {
     position: relative;
     top: -0px;
     border-radius: 95px 0 0 0;
+    background-position: -68.7% 21.43%;
+    background-size: 461%;
   }
   .box7link {
     order: 13;
+    background-position: -68.57% 46.91%;
+    background-size: 461%;
   }
   .box8 {
     order: 11;
     position: relative;
     top: -0px;
+    background-position: -68.57% 31.91%;
+    background-size: 461%;
   }
   .box9 {
     order: 5;
     height: 100px;
     position: relative;
     top: -0px;
+    background-position: -227% -35%;
   }
   .box9 p {
     top: 0px;
@@ -774,11 +794,15 @@ body {
   .box10 {
     order: 9;
     border-radius: 0 0 0 95px;
+    background-position: -68.7% 10.25%;
+    background-size: 461%;
   }
   .box11 {
     order: 15;
     position: relative;
     top: -0px;
+    background-position: -68.57% 94.59%;
+    background-size: 461%;
   }
   .box12 {
     order: 12;
@@ -787,11 +811,16 @@ body {
   }
   .box13 {
     order: 13;
+    background-position: -68.57% 62.94%;
+    background-size: 461%;
   }
   .box14 {
     order: 14;
+    background-position: -68.57% 81.79%;
+    background-size: 461%;
   }
   .box15 {
     order: 8;
+    background-position: -224% -30.9%;
   }
 }

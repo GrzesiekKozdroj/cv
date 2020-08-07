@@ -8,7 +8,7 @@ class Box15 extends Component {
     }
     render() {
         return (
-        <div className={"yellow__box box15 hinge-in-from-top mui-enter"+this.state.klazz}>
+        <div className={"yellow__box box15 hinge-in-from-top mui-enter"+this.state.klazz} style={this.props.style}>
                     <p className="phone button">0 745 453 40 18</p>
                     <a className="email button" href="mailto:GregKozdroj@gmail.com" 
                         target="_blank" rel="noopener noreferrer"
