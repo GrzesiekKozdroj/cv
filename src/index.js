@@ -87,6 +87,7 @@ const projectInfeed = [
         url:'https://github.com/GrzesiekKozdroj/pGodtear',
         urlExample:'https://godtear.herokuapp.com/',
         alt:'Godtear game',
+        
     }
     // {
     //     text:'' + longWait,
