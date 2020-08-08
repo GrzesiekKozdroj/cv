@@ -1,8 +1,11 @@
 import React, { Component } from 'react';
 import imeg from './img/cabinetmin.jpg';
+import imgBIG from './img/cabinet.jpg';
+let b = imgBIG;
 class Box4 extends Component {
     state={
-        klazz:" "
+        klazz:" ",
+        iamg:b
     }
     componentDidMount(){
         setTimeout(()=>this.setState({klazz:" mui-enter-active"}),2000)
@@ -15,7 +18,7 @@ class Box4 extends Component {
                     <li>Good fantasy and sci-fi games, books and movies.</li>
                     <li>Table top games and computer games</li>
                 </ul>
-                <a href="https://grzesiekkozdroj.github.io/CV/images/cabinet.jpg" target="_blank" rel="noopener noreferrer">
+                <a href="https://grzesiekkozdroj.github.io/CV/images/cabinet.c077dd8b.jpg" target="_blank" rel="noopener noreferrer">
                     <img className="models" src={imeg} alt="my display cabinet" />
                 </a>
             </div>
