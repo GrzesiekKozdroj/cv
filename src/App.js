@@ -56,7 +56,7 @@ class App extends Component {
     render() {
         return (
             <div>
-                <section className={"main__container" + this.state.majnBackground}>
+                <section className="main__container">
                     <Box1 />
                     <div className={"play scale-in-down mui-enter yellow__box"+this.state.majnButtonKlazz}>
                         <div className="counter">

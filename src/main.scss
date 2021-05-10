@@ -51,6 +51,7 @@ body {
 .main__container__anim{
     background: url($backgroundImage);
     background-size:1000px;
+    transform: scale(.69);
     background-position: -144px -79px;
 }
 .yellow__box {

@@ -47,6 +47,7 @@ body {
 .main__container__anim {
   background: url("");
   background-size: 1000px;
+  transform: scale(0.69);
   background-position: -144px -79px;
 }
 
