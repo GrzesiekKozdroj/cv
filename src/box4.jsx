@@ -19,7 +19,7 @@ class Box4 extends Component {
                     <li>Table top games and computer games</li>
                 </ul>
                 <a href="https://raw.githubusercontent.com/GrzesiekKozdroj/CV/master/build/static/media/cabinet.c077dd8b.jpg" target="_blank" rel="noopener noreferrer">
-                    <img className="models" src={imeg} alt="my display cabinet" />
+                    <img className="models" src={imgBIG} alt="my display cabinet" />
                 </a>
             </div>
         )

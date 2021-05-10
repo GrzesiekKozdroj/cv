@@ -40,6 +40,14 @@ class App extends Component {
             playPauseIcon: !this.state.playPause ? '||' : '>'
         })
     }
+    beans = (length,highlightedProject) => {
+        let produce = []
+        for(let i=0; i<length; i++){
+            let highlighter = highlightedProject === i ? 'glowBeam' : "non"
+            produce = [ ...produce, <div className = {`beam `+highlighter} ></div>]
+        }
+        return produce
+    }
     rewindClick = (event) => { event.preventDefault(); this.play(-1) }
     forwardClick = (event) => { event.preventDefault(); this.play(+1) }
     play = (digit) => {
@@ -50,7 +58,12 @@ class App extends Component {
             <div>
                 <section className={"main__container" + this.state.majnBackground}>
                     <Box1 />
-                    <div className={"play scale-in-down mui-enter"+this.state.majnButtonKlazz}>
+                    <div className={"play scale-in-down mui-enter yellow__box"+this.state.majnButtonKlazz}>
+                        <div className="counter">
+                            {
+                                this.beans(this.props.projectInfeed.length,this.state.counter)
+                            }
+                        </div>
                         <div className={"pausePlay hinge-in-from-right mui-enter"+this.state.forKlazz}
                              onClick={e => this.rewindClick(e)}>&lt;&lt;</div>
                         <div className="forward"

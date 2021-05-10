@@ -3,7 +3,7 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto');
 $bordersColor: rgb(255, 195, 85);
 $yellowBorders: rgb(255, 255, 0);
-$backgroundImage:'./img/backgroundMeGreyC.jpg';
+$backgroundImage:'';
 @keyframes unwrapOnLoad {
     0%{
         opacity:0;
@@ -83,12 +83,15 @@ body {
     width:217px;
     height:50px;
     @include flex;
+    flex-wrap:wrap;
     color: orange;
     font-size: 22px;
     font-weight:900;
     background: url($backgroundImage);
     background-position: 23.6% 44.77%;
     background-size: 461%;
+    border-right:none;
+    border-bottom:none;
     div{
         width:30px;
         height:30px;
@@ -109,9 +112,43 @@ body {
         letter-spacing:-2px;
         width:42px;
     }
+    .counter {
+        margin-top:5%;
+        @include flex;
+        .beam{
+            width: 8%;
+            height:120%;
+        }
+        .glowBeam{
+            border-color: green;
+        }
+        width:100%;
+        height:10%;
+        border:none;
+    }
 }
 
-.box2,
+.box2{
+    height: 127px;
+    border-right:none;
+    border-bottom:none;
+    border-top:none;
+    @include flex;
+    @extend %buttonAnimation;
+    .cl__logo {
+        background: url('./img/cl.png');
+        display: inline-block;
+        width: 385px;
+        height: 69px;
+        background-position: -118px -59px;
+        transform: rotate(-21deg);
+        background-size: 960px;
+        position: relative;
+        top: -35px;
+        left: 81px;
+    }
+}
+
 .box3 {
     height: 127px;
     border-right:none;

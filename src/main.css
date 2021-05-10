@@ -24,13 +24,11 @@ body {
   background-color: #1f1d1d;
 }
 
-.play div:hover, .box2:hover,
-.box3:hover, .box4 .models:hover, .box7link:hover, .box14 p:hover, .box15 .button:hover, .box15 .phone:hover, .box15 .email:hover, .box15 .github:hover, .box15 .linkedin:hover {
+.play div:hover, .box2:hover, .box3:hover, .box4 .models:hover, .box7link:hover, .box14 p:hover, .box15 .button:hover, .box15 .phone:hover, .box15 .email:hover, .box15 .github:hover, .box15 .linkedin:hover {
   box-shadow: inset 0px 0px 25px white, 0 0 15px #516b39, 0 0 20px #618b00, 0 0 200px rgba(30, 122, 102, 0.932);
 }
 
-.play div:active, .box2:active,
-.box3:active, .box4 .models:active, .box7link:active, .box14 p:active, .box15 .button:active, .box15 .phone:active, .box15 .email:active, .box15 .github:active, .box15 .linkedin:active {
+.play div:active, .box2:active, .box3:active, .box4 .models:active, .box7link:active, .box14 p:active, .box15 .button:active, .box15 .phone:active, .box15 .email:active, .box15 .github:active, .box15 .linkedin:active {
   box-shadow: inset 0 0 7px #b1cc9b, inset 0 0 13px #54c2b9, 0 0 200px white, 0 0 20px rgba(255, 255, 255, 0.2);
   border: solid greenyellow;
 }
@@ -47,7 +45,7 @@ body {
 }
 
 .main__container__anim {
-  background: url("./img/backgroundMeGreyC.jpg");
+  background: url("");
   background-size: 1000px;
   background-position: -144px -79px;
 }
@@ -123,7 +121,7 @@ body {
   border: none;
   height: 492px;
   animation: 1.5s forwards unwrapOnLoad;
-  background: url("./img/backgroundMeGreyC.jpg");
+  background: url("");
   background-position: 23.6% 13%;
   background-size: 461%;
 }
@@ -142,12 +140,15 @@ body {
   justify-content: center;
   align-content: center;
   align-items: center;
+  flex-wrap: wrap;
   color: orange;
   font-size: 22px;
   font-weight: 900;
-  background: url("./img/backgroundMeGreyC.jpg");
+  background: url("");
   background-position: 23.6% 44.77%;
   background-size: 461%;
+  border-right: none;
+  border-bottom: none;
 }
 
 .play div {
@@ -176,7 +177,50 @@ body {
   width: 42px;
 }
 
-.box2,
+.play .counter {
+  margin-top: 5%;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+  width: 100%;
+  height: 10%;
+  border: none;
+}
+
+.play .counter .beam {
+  width: 8%;
+  height: 120%;
+}
+
+.play .counter .glowBeam {
+  border-color: green;
+}
+
+.box2 {
+  height: 127px;
+  border-right: none;
+  border-bottom: none;
+  border-top: none;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+}
+
+.box2 .cl__logo {
+  background: url("./img/cl.png");
+  display: inline-block;
+  width: 385px;
+  height: 69px;
+  background-position: -118px -59px;
+  transform: rotate(-21deg);
+  background-size: 960px;
+  position: relative;
+  top: -35px;
+  left: 81px;
+}
+
 .box3 {
   height: 127px;
   border-right: none;
@@ -187,7 +231,6 @@ body {
   align-items: center;
 }
 
-.box2 .cl__logo,
 .box3 .cl__logo {
   background: url("./img/cl.png");
   display: inline-block;
@@ -206,7 +249,7 @@ body {
   justify-content: center;
   align-content: center;
   align-items: center;
-  background: url("./img/backgroundMeGreyC.jpg");
+  background: url("");
   background-position: 23.6% 51.25%;
   background-size: 461%;
 }
@@ -220,7 +263,7 @@ body {
 
 .box3 {
   animation: 1s forwards unwrapOnLoad;
-  background: url("./img/backgroundMeGreyC.jpg");
+  background: url("");
   background-position: 23.6% 66.25%;
   background-size: 461%;
 }
@@ -233,7 +276,7 @@ body {
   flex-flow: column;
   color: white;
   height: 270px;
-  background: url("./img/backgroundMeGreyC.jpg");
+  background: url("");
   background-position: 23.6% 79.4%;
   background-size: 461%;
   z-index: 1;
@@ -255,7 +298,7 @@ body {
   height: 280px;
   border: none;
   animation: 1.8s forwards unwrapOnLoad;
-  background: url("./img/backgroundMeGreyC.jpg");
+  background: url("");
   background-position: -76% 9.3%;
   background-size: 465%;
 }
@@ -268,7 +311,7 @@ body {
   height: 135px;
   border-right: none;
   animation: 0.1s forwards unwrapOnLoad;
-  background: url("./img/backgroundMeGreyC.jpg");
+  background: url("");
   background-position: -75% -80%;
   background-size: 477%;
 }
@@ -316,7 +359,7 @@ body {
 
 .box7link {
   text-decoration: none;
-  background: url("./img/backgroundMeGreyC.jpg");
+  background: url("");
   background-position: -76% -78%;
   background-size: 465%;
 }
@@ -352,7 +395,7 @@ body {
   justify-content: center;
   align-content: center;
   align-items: center;
-  background: url("./img/backgroundMeGreyC.jpg");
+  background: url("");
   background-position: -76% -49%;
   background-size: 470%;
   animation: 0.8s forwards unwrapOnLoad;
@@ -378,7 +421,7 @@ body {
   flex-wrap: wrap;
   line-height: 25px;
   border-left: none;
-  background: url("./img/backgroundMeGreyC.jpg");
+  background: url("");
   background-position: -207% -45%;
   background-size: 446%;
 }
@@ -424,7 +467,7 @@ body {
   flex-wrap: wrap;
   border-bottom: none;
   animation: 1.6s forwards unwrapOnLoad;
-  background: url("./img/backgroundMeGreyC.jpg");
+  background: url("");
   background-position: -48.7% 8.7%;
   background-size: 462%;
 }
@@ -520,7 +563,7 @@ body {
   align-items: center;
   color: white;
   font-size: 14px;
-  background: url("./img/backgroundMeGreyC.jpg");
+  background: url("");
   background-position: -47.5% 20%;
   background-size: 484%;
   animation: 1s forwards unwrapOnLoad;
@@ -536,7 +579,7 @@ body {
   border: none;
   border-left: 2px dashed #ffc355;
   animation: 1s forwards unwrapOnLoad;
-  background: url("./img/backgroundMeGreyC.jpg");
+  background: url("");
   background-position: -49.5% 30%;
   background-size: 442%;
   margin-top: .54px;
@@ -550,7 +593,7 @@ body {
   align-items: center;
   border-bottom: none;
   animation: 0.9s forwards unwrapOnLoad;
-  background: url("./img/backgroundMeGreyC.jpg");
+  background: url("");
   background-position: -49% 40%;
   background-size: 458%;
 }
@@ -614,7 +657,7 @@ body {
   font-size: 32px;
   font-weight: 900;
   animation: 0.9s forwards unwrapOnLoad;
-  background: url("./img/backgroundMeGreyC.jpg");
+  background: url("");
   background-position: -49% 57%;
   background-size: 458%;
 }
@@ -671,7 +714,7 @@ body {
   align-items: center;
   flex-wrap: wrap;
   flex-flow: column;
-  background: url("./img/backgroundMeGreyC.jpg");
+  background: url("");
   background-position: -49% -44%;
   background-size: 462%;
 }

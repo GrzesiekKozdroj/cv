@@ -1,3 +1,6 @@
+//npm start to start
+//npm run build to compile
+//npm run deploy to deeploy
 import React from 'react';
 import ReactDOM from 'react-dom';
 import App from './App';
@@ -9,6 +12,7 @@ import img4 from './img/oldCV.jpg'; import img5 from './img/mailing_pod_chmurami
 import img7 from './img/tech-doc.png'; import img8 from './img/fractal.png'; import img9 from './img/todos.png';
 import img10 from './img/forum.png';
 import img11 from './img/Godtear.png';
+import img12 from './img/rusersapp.png';
 const longWait = '                                                                                                                        ';
 const projectInfeed = [
     {
@@ -88,7 +92,14 @@ const projectInfeed = [
         urlExample:'https://godtear.herokuapp.com/',
         alt:'Godtear game',
         
-    }
+    },
+    {
+        text:'In this exercise project, I learned how I can use React, Redux and Node together to create a simple application that consumes API from https://randomuser.me/' + longWait,
+        img:img12,
+        url:'https://github.com/GrzesiekKozdroj/react-project-users-list-full-stack',
+        urlExample:'https://larhendiel-rng-user-app.herokuapp.com/',
+        alt:'random user application',
+    },
     // {
     //     text:'' + longWait,
     //     img:require(''),
