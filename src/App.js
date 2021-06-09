@@ -40,11 +40,17 @@ class App extends Component {
             playPauseIcon: !this.state.playPause ? '||' : '>'
         })
     }
+    resetCounter = (e,i)=>{
+        e.preventDefault()
+        this.setState({
+            counter:i
+        })
+    }
     beans = (length,highlightedProject) => {
         let produce = []
         for(let i=0; i<length; i++){
             let highlighter = highlightedProject === i ? 'glowBeam' : "non"
-            produce = [ ...produce, <div className = {`beam `+highlighter} ></div>]
+            produce = [ ...produce, <div className = {`beam button `+highlighter} onClick={e=>this.resetCounter(e,i)}  ></div>]
         }
         return produce
     }
@@ -64,11 +70,11 @@ class App extends Component {
                                 this.beans(this.props.projectInfeed.length,this.state.counter)
                             }
                         </div>
-                        <div className={"pausePlay hinge-in-from-right mui-enter"+this.state.forKlazz}
+                        <div className={"button pausePlay hinge-in-from-right mui-enter"+this.state.forKlazz}
                              onClick={e => this.rewindClick(e)}>&lt;&lt;</div>
-                        <div className="forward"
+                        <div className="button forward"
                             onClick={e => this.pausePlay(e)}>{this.state.playPauseIcon}</div>
-                        <div className={"rewind hinge-in-from-left mui-enter"+this.state.backKlazz} 
+                        <div className={"button rewind hinge-in-from-left mui-enter"+this.state.backKlazz} 
                             onClick={e => this.forwardClick(e)}>&gt;&gt;</div>
                     </div>
                     <Box2 imgicon={this.state.projectImg} url={this.state.urlExample} alt={this.state.alt}/>

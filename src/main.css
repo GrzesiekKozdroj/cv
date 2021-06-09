@@ -24,11 +24,11 @@ body {
   background-color: #1f1d1d;
 }
 
-.play div:hover, .box2:hover, .box3:hover, .box4 .models:hover, .box7link:hover, .box14 p:hover, .box15 .button:hover, .box15 .phone:hover, .box15 .email:hover, .box15 .github:hover, .box15 .linkedin:hover {
+.play .button:hover, .box2:hover, .box3:hover, .box4 .models:hover, .box7link:hover, .box14 p:hover, .box15 .button:hover, .box15 .phone:hover, .box15 .email:hover, .box15 .github:hover, .box15 .linkedin:hover {
   box-shadow: inset 0px 0px 25px white, 0 0 15px #516b39, 0 0 20px #618b00, 0 0 200px rgba(30, 122, 102, 0.932);
 }
 
-.play div:active, .box2:active, .box3:active, .box4 .models:active, .box7link:active, .box14 p:active, .box15 .button:active, .box15 .phone:active, .box15 .email:active, .box15 .github:active, .box15 .linkedin:active {
+.play .button:active, .box2:active, .box3:active, .box4 .models:active, .box7link:active, .box14 p:active, .box15 .button:active, .box15 .phone:active, .box15 .email:active, .box15 .github:active, .box15 .linkedin:active {
   box-shadow: inset 0 0 7px #b1cc9b, inset 0 0 13px #54c2b9, 0 0 200px white, 0 0 20px rgba(255, 255, 255, 0.2);
   border: solid greenyellow;
 }
@@ -152,7 +152,7 @@ body {
   border-bottom: none;
 }
 
-.play div {
+.play .button {
   width: 30px;
   height: 30px;
   border: 2px solid yellow;
@@ -164,7 +164,7 @@ body {
   align-items: center;
 }
 
-.play div:hover {
+.play .button:hover {
   cursor: grab;
 }
 
