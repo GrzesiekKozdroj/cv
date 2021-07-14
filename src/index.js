@@ -16,10 +16,10 @@ import img12 from './img/rusersapp.png';
 const longWait = '                                                                                                                        ';
 const projectInfeed = [
     {
-        text: 'Tic-tac-toe game using jQuery. But with a twist, in primary school I realised classic game with three fields gives no true way of actually playing, so me and my friend made a "expanded" version of this game. Click on picture for live example, or description fo github repo.' + longWait,
+        text: 'Tic-tac-toe game using jQuery. But with a twist, you need fiveinstead of three fields in horizontal, diagonal or vertical row. Click on picture for live example, or description fo github repo.' + longWait,
         img: img1,
         url: 'https://github.com/GrzesiekKozdroj/tic-tac-toe-5',
-        urlExample: 'https://grzesiekkozdroj.github.io/tic-tac-toe-5/',
+        urlExample: 'https://larhs-tic-tac-toe-five.herokuapp.com/',
         alt: 'picture of a tic tac toe game',
     },
     {
