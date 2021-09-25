@@ -11,7 +11,7 @@ class Box2 extends Component {
         return (
             <a id="projects" href={this.props.url} target="_blank" rel="noopener noreferrer">
                 <div className={"yellow__box box2 hinge-in-from-right mui-enter"+this.state.klazz}>
-                    <img className="project-tile" src={imge} alt={this.props.alt}/>
+                    <img className="project-tile" src={imge} alt={this.props.alt} loading="lazy"/>
                 </div>
             </a>
         )

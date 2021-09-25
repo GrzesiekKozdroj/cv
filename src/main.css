@@ -120,7 +120,7 @@ body {
 
 .box1 {
   border: none;
-  height: 492px;
+  height: 412px;
   animation: 1.5s forwards unwrapOnLoad;
   background: url("");
   background-position: 23.6% 13%;
@@ -132,6 +132,28 @@ body {
   color: #ffc355;
   font-size: 55px;
   font-weight: 900;
+}
+
+.texted-linkz {
+  height: 80px;
+  width: 217px;
+  border-bottom: none;
+  border-right: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  color: white;
+}
+
+.texted-linkz a {
+  color: #6060ff;
+  display: inline;
+}
+
+.texted-linkz p {
+  display: inline-flex;
+  justify-content: center;
 }
 
 .play {

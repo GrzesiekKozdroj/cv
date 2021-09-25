@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import Box1 from "./box1.jsx";
+import BoxOneHalf from './boxOneHalf.jsx'
 import Box2 from "./box2.jsx";
 import Box3 from "./box3.jsx";
 import Box4 from "./box4.jsx";
@@ -31,7 +32,8 @@ class App extends Component {
         urlExample: this.props.projectInfeed[0].url,
         alt: this.props.projectInfeed[0].alt,
         isLoaded: false,
-        backgrounds: {}
+        backgrounds: {},
+        title: this.props.projectInfeed[0].title
     }
     pausePlay = (event) => {
         event.preventDefault();
@@ -64,6 +66,7 @@ class App extends Component {
             <div>
                 <section className="main__container">
                     <Box1 />
+                    <BoxOneHalf title={this.state.title} url={this.state.url} urlExample={this.state.urlExample} />
                     <div className={"play scale-in-down mui-enter yellow__box"+this.state.majnButtonKlazz}>
                         <div className="counter">
                             {
@@ -128,6 +131,7 @@ class App extends Component {
                 url: this.props.projectInfeed[this.state.counter].url,
                 urlExample: this.props.projectInfeed[this.state.counter].urlExample,
                 alt: this.props.projectInfeed[this.state.counter].alt,
+                title:this.props.projectInfeed[this.state.counter].title
             })
 
             if (this.state.playPause && counter >= this.props.projectInfeed[this.state.counter].text.length) {

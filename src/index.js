@@ -21,13 +21,15 @@ const projectInfeed = [
         url: 'https://github.com/GrzesiekKozdroj/tic-tac-toe-5',
         urlExample: 'https://larhs-tic-tac-toe-five.herokuapp.com/',
         alt: 'picture of a tic tac toe game',
+        title: 'tic-tac-toe-five'
     },
     {
-        text: 'Work In Progress. This is probably the first attempt at converting physical tabletop game - Guild Ball into jQuery, JavaScript and HTML canvas game. Intention is to make interface that allows players to enjoy the game while also limiting their manuverability to what is legal rules wise.' + longWait,
+        text: 'This is the first attempt at converting physical tabletop game - Guild Ball into jQuery, JavaScript and HTML canvas game. Intention is to make interface that allows players to enjoy the game while also limiting their manuverability to what is legal rules wise.' + longWait,
         img: img2,
         url: 'https://github.com/GrzesiekKozdroj/gimball',
         urlExample: 'https://grzesiekkozdroj.github.io/Guild-Ball/',
         alt: 'picture of a Guild Ball game',
+        title: 'Guild Ball'
     },
     {
         text: 'Bootcamp project with Pixel Perfect and basic HTML & CSS. Very simple and out of date mock up shop that sells chairs. Click on picture for live example, or description fo github repo.' + longWait,
@@ -35,6 +37,7 @@ const projectInfeed = [
         url: 'https://github.com/GrzesiekKozdroj/Sit-On-Chair-Web-Page',
         urlExample: 'https://grzesiekkozdroj.github.io/Sit-On-Chair-Web-Page/',
         alt: 'picture of a online store page shop selling chairs',
+        title: 'sit on chairs'
     },
     {
         text: 'Old CV of mine, static and classic, but still functional, I had fun using react while developing it. Click on picture for live example, or description fo github repo.' + longWait,
@@ -42,6 +45,7 @@ const projectInfeed = [
         url: 'https://github.com/GrzesiekKozdroj/Grzesiek-Kozdroj-Old_CV/',
         urlExample: 'https://grzesiekkozdroj.github.io/Grzesiek-Kozdroj-Old_CV/',
         alt: 'picture of my old portfolio',
+        title: 'discarded attempts'
     },
     {
         text:'Mailing example we have done as a workshop durning Coders Lab course. Click on picture for live example, or description fo github repo.' + longWait,
@@ -49,6 +53,7 @@ const projectInfeed = [
         url:'https://github.com/GrzesiekKozdroj/Coders-Lab-Workshop-Mailing',
         urlExample:'https://grzesiekkozdroj.github.io/Coders-Lab-Workshop-Mailing/',
         alt:'github workshop mailing',
+        title: 'mailing'
     },
     {
         text:"Created simple server, this was just an exercise to help me understand better how to create database and connect it with self-written server and send that data to front-end with options to add, edit and delete." + longWait,
@@ -56,6 +61,7 @@ const projectInfeed = [
         url:'https://github.com/GrzesiekKozdroj/MERN-stack-first-learning-project',
         urlExample:'https://github.com/GrzesiekKozdroj/MERN-stack-first-learning-project',
         alt:'M_E_R_N',
+        title:'MERN stack'
     },
     {
         text:'Mockup of a teachnical documentation page, project was requiered by freeCodeCamp to complete one of their courses. It uses none of fancy new web techologies, it does not need them.' + longWait,
@@ -63,6 +69,7 @@ const projectInfeed = [
         url:'https://github.com/GrzesiekKozdroj/technical-documentation',
         urlExample:'https://grzesiekkozdroj.github.io/technical-documentation/',
         alt:'technical documentation',
+        title: 'technical documentation'
     },
     {
         text:'I wondered why there are no awesome infinitely zooming in fractals out there untill I tried to make my own and got crushed by how long it take to generate just one frame. Here is a fine example of this obstacle. I will try to optimise it though. This project is just too trippy.' + longWait,
@@ -70,6 +77,7 @@ const projectInfeed = [
         url:'https://github.com/GrzesiekKozdroj/mandelbrot-react-SLOW',
         urlExample:'https://grzesiekkozdroj.github.io/mandelbrot-react-SLOW/',
         alt:'mandelbrot fractal',
+        title:'static fractal'
     },
     {
         text:'Simple to do list exercise with react and ability to invoke its events' + longWait,
@@ -77,6 +85,7 @@ const projectInfeed = [
         url:'https://github.com/GrzesiekKozdroj/to_do_list-react',
         urlExample:'https://grzesiekkozdroj.github.io/to_do_list-react/',
         alt:'to do list',
+        title:'to do list'
     },
     {
         text:"Simple react exercise with use of router. Posts won't load though, not until one of the links in the navbar isn't visited, I need to look at way data is requested."+longWait,
@@ -84,6 +93,7 @@ const projectInfeed = [
         url:'https://github.com/GrzesiekKozdroj/forum-mockup',
         urlExample:'https://grzesiekkozdroj.github.io/forum-mockup/',
         alt:'forum mock up',
+        title: 'forum mockup'
     },
     {
         text:'Godtear is board game invented by SFG, this project is accurate replica of physical board game made into JavaScript, live on heroku, its a multiplayer pvp board game utilising jQuery, socket.io, express and node.js' + longWait,
@@ -91,7 +101,7 @@ const projectInfeed = [
         url:'https://github.com/GrzesiekKozdroj/pGodtear',
         urlExample:'https://godtear.herokuapp.com/',
         alt:'Godtear game',
-        
+        title: 'Godtear pvp game'
     },
     {
         text:'In this exercise project, I learned how I can use React, Redux and Node together to create a simple application that consumes API from https://randomuser.me/' + longWait,
@@ -99,6 +109,7 @@ const projectInfeed = [
         url:'https://github.com/GrzesiekKozdroj/react-project-users-list-full-stack',
         urlExample:'https://larhendiel-rng-user-app.herokuapp.com/',
         alt:'random user application',
+        title:'random user app'
     },
     
     // {

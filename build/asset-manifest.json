@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/cv/static/css/main.5b880e3e.chunk.css",
-    "main.js": "/cv/static/js/main.2653b7a4.chunk.js",
-    "main.js.map": "/cv/static/js/main.2653b7a4.chunk.js.map",
+    "main.css": "/cv/static/css/main.995c827c.chunk.css",
+    "main.js": "/cv/static/js/main.4185f452.chunk.js",
+    "main.js.map": "/cv/static/js/main.4185f452.chunk.js.map",
     "runtime-main.js": "/cv/static/js/runtime-main.eccd8430.js",
     "runtime-main.js.map": "/cv/static/js/runtime-main.eccd8430.js.map",
     "static/js/2.e5aa6027.chunk.js": "/cv/static/js/2.e5aa6027.chunk.js",
     "static/js/2.e5aa6027.chunk.js.map": "/cv/static/js/2.e5aa6027.chunk.js.map",
     "index.html": "/cv/index.html",
-    "static/css/main.5b880e3e.chunk.css.map": "/cv/static/css/main.5b880e3e.chunk.css.map",
+    "static/css/main.995c827c.chunk.css.map": "/cv/static/css/main.995c827c.chunk.css.map",
     "static/js/2.e5aa6027.chunk.js.LICENSE.txt": "/cv/static/js/2.e5aa6027.chunk.js.LICENSE.txt",
     "static/media/Godtear.e33395c2.png": "/cv/static/media/Godtear.e33395c2.png",
     "static/media/main.css": "/cv/static/media/cl.0df46ede.png",
@@ -29,7 +29,7 @@
   "entrypoints": [
     "static/js/runtime-main.eccd8430.js",
     "static/js/2.e5aa6027.chunk.js",
-    "static/css/main.5b880e3e.chunk.css",
-    "static/js/main.2653b7a4.chunk.js"
+    "static/css/main.995c827c.chunk.css",
+    "static/js/main.4185f452.chunk.js"
   ]
 }
