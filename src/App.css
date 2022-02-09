@@ -1,0 +1,195 @@
+/*@import url('https://fonts.googleapis.com/css2?family=Fleur+De+Leah&display=swap');*/
+.App {
+  text-align: center;
+  width:99.2vw;
+}
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+::-webkit-scrollbar {
+  display: none;
+  width:0;
+}
+*{
+  -ms-overflow-style: none;  /* IE and Edge */
+  scrollbar-width: none;  /* Firefox */
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+.codinProjectsMainPanel{
+  width:95vw;
+}
+.card .card-image .card-title{
+  text-shadow: 0 0 2px black, 1px 1px 1px black;
+}
+.carousel .carousel-item {
+  max-height:270px !important;
+}
+.carousel{
+  height:500px;
+}
+.responsive-img{
+  /*margin-top:-110px;*/
+  max-height:270px !important;
+}
+.galleryImgPopup{
+  max-width: 80vw;
+  max-height: 80vh;
+  position: fixed;
+  top: 50%;
+  left:50%;
+  transform: translate(-50%, -50%);
+}
+.fakeContajner{
+  left:0;
+  width: 100vw;
+  height: 93vh;
+  top: 7vh;
+  background-color: #282c34e3;
+  position: fixed;
+}
+nav{
+  height:8vh;
+  z-index: 100;
+  margin:0;
+  width:100vw;
+}
+.contentBlock{
+  overflow-y: scroll;
+  height:92vh;
+  width:100vw;
+  margin:0;
+    scrollbar-width: thin;  /* Firefox */
+    -ms-overflow-style: scrollbar;
+}
+.contentBlock::-webkit-scrollbar {
+  width:12px;
+}
+
+.contentBlock::-webkit-scrollbar {
+  display: default;
+}
+.App{
+  height: 100vh;
+  width: 100vw;
+  margin:0;
+}
+.article{
+  width: 100vw;
+  height:100%;
+  background-color: whitesmoke;
+}
+.articleTitle{
+  margin-top:0;
+}
+.articleImg{
+  display: inline-block;
+  max-height:60vh;
+  max-width: 60vw;
+}
+.mePhotoDiv{
+  height:30vh;
+  width:30vh;
+  overflow: hidden;
+  padding-top:-10vh;
+  border-radius: 50%;
+  margin-top:2.53vh;
+}
+.mePhoto{
+  max-width:30vh;
+}
+.picBlock{
+  display:flex;
+  width: 100%;
+  justify-content: center;
+  
+}
+.titlesBlock{
+  max-width:650px;
+}
+.nextSection{
+  width:100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.nextSectionTitle{
+  width:100%;
+}
+.nickName{
+  font-weight: bold;
+}
+.contact{
+  display:flex;
+  justify-content: space-evenly;
+
+}
+.whoami{
+  margin: auto auto;
+  height: 80vh;
+}
+.Canva{
+  position:absolute;
+  top:0;
+  left:0;
+  z-index:-1;
+  background-color:rgb(10, 16, 29);
+  margin:0;
+  color:rgb(6, 51, 2)
+}
+@media only screen and (max-width: 780px){
+    .picBlock{
+      display:flex;
+      flex-wrap: wrap;
+      width: 100%;
+      justify-content: center;
+
+    }
+    .whoami{
+      height: 95vh;
+    }
+    nav{
+      height:12vh;
+      padding-top:1vh;
+      background-color: rgb(27 94 32);
+    }
+  }
+.btn-floating.btn-large.waves-effect.left.waves-light.green.darken-4{
+  margin:10px;
+}
+
+.article {
+  background-color: #f5f5f533;
+}
+.article-links{
+  margin-left: 20px;
+  margin-right:20px;
+}
