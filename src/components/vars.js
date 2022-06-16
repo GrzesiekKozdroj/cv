@@ -4,7 +4,7 @@ import img4 from '../img/oldCV.jpg'; import img5 from '../img/mailing_pod_chmura
 import img7 from '../img/tech-doc.png'; import img8 from '../img/fractal.png'; import img9 from '../img/todos.png';
 import img10 from '../img/forum.png';
 import img11 from '../img/Godtear.png';
-import img12 from '../img/rusersapp.png';
+import img12 from '../img/rusersapp.png'; import img13 from '../img/spawacz.jpg'; import img14 from '../img/fotograf.jpg'
     let templatos = null
     templatos = {
         text:'photoname',
@@ -397,6 +397,24 @@ const models = {
 }
 const longWait = ''
 const projects = [
+    {
+        text: 'My firend, a photographer, also wanted me to make him another super simple landing page.' + longWait,
+        img: img14,
+        url: 'https://github.com/GrzesiekKozdroj/michal-photography',
+        urlExample: 'https://grzesiekkozdroj.github.io/michal-photography/',
+        alt: 'photographer\'s landing page',
+        title: 'photographer',
+        routerUrl:'photographer'
+    },
+    {
+        text: 'My friend, a welder, wanted me to make him a super simple landing page.' + longWait,
+        img: img13,
+        url: 'https://github.com/GrzesiekKozdroj/spawacz',
+        urlExample: 'https://grzesiekkozdroj.github.io/spawacz/',
+        alt: 'a welder\'s landing page',
+        title: 'welder',
+        routerUrl:'welder'
+    },
     {
         text: 'Tic-tac-toe game using jQuery, node and socket.io. But with a twist, you need five symbols instead of three in horizontal, diagonal or vertical row. Click on live example and send this link to your friend so you can play against each other. There is also a chat option. And if more people want to play this game they will join their own little room with their own local chat. If you rather see the code, its on github repo.' + longWait,
         img: img1,
