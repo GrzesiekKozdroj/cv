@@ -1,11 +1,10 @@
 import { NavHashLink as HLink } from 'react-router-hash-link'
-const classes = "white-text"
+const classes = "white-text waves-effect waves-green"
 const NavButtonTemplate = ({to, text},i)=>{
     return (
         <li>
             <HLink 
-                smooth 
-                activeClassName="selected" 
+                smooth
                 className = {classes}
                 to={to} 
                 key={i}

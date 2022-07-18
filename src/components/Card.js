@@ -15,10 +15,6 @@ const Card = (props) => {
                         <p className="black-text">{text}</p>
                     </div>
                 </Link>
-                <div className="card-action">
-                    <a target="_blank" href={sUrl}>code</a>
-                    <a target="_blank" href={urlExample}>live sample</a>
-                </div>
             </div>
         </div>
     )

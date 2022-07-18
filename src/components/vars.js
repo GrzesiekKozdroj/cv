@@ -534,6 +534,7 @@ const projects = [
     //     routerUrl:''
     // }
 ]
-const pack = { models, projects }
+const buttonColor = " green darken-4"
+const pack = { models, projects, buttonColor }
 export default pack
 //npm run deploy
